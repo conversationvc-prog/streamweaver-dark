@@ -61,7 +61,7 @@ const Watch = () => {
       <div className="grid gap-6 md:grid-cols-[2fr,1fr]">
         <section className="space-y-4">
           <h1 className="text-2xl font-bold tracking-tight">{item.title}</h1>
-          <Card className="p-3">
+          <Card className="p-3 animate-fade-in">
             {item.type === "movie" && item.source && (
               <VideoPlayer url={item.source.url} />
             )}
@@ -70,7 +70,7 @@ const Watch = () => {
                 <div className="flex flex-wrap gap-3">
                   <Select value={seasonId} onValueChange={(v) => { setSeasonId(v); const first = item.seasons?.find(s => s.id === v)?.episodes?.[0]?.id; setEpisodeId(first); }}>
                     <SelectTrigger className="w-[160px]"><SelectValue placeholder="Season" /></SelectTrigger>
-                    <SelectContent>
+                    <SelectContent className="z-50 bg-popover">
                       {item.seasons?.map((s) => (
                         <SelectItem key={s.id} value={s.id}>Season {s.number}</SelectItem>
                       ))}
@@ -79,7 +79,7 @@ const Watch = () => {
 
                   <Select value={episodeId} onValueChange={(v) => setEpisodeId(v)}>
                     <SelectTrigger className="w-[200px]"><SelectValue placeholder="Episode" /></SelectTrigger>
-                    <SelectContent>
+                    <SelectContent className="z-50 bg-popover">
                       {currentSeason?.episodes?.map((e) => (
                         <SelectItem key={e.id} value={e.id}>Ep {e.number}: {e.title}</SelectItem>
                       ))}

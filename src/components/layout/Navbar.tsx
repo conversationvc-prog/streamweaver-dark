@@ -9,9 +9,9 @@ export const Navbar = () => {
           <span className="text-lg font-semibold">Stream</span>
         </Link>
         <nav className="flex items-center gap-6 text-sm">
-          <NavLink to="/" className={({isActive}) => isActive ? "text-foreground" : "text-muted-foreground hover:text-foreground"}>Home</NavLink>
-          <a href="#trending" className="text-muted-foreground hover:text-foreground">Trending</a>
-          <a href="#catalog" className="text-muted-foreground hover:text-foreground">Catalog</a>
+          <NavLink to="/" className={({isActive}) => `story-link hover-scale ${isActive ? "text-foreground" : "text-muted-foreground hover:text-foreground"}`}>Home</NavLink>
+          <a href="#trending" className="story-link hover-scale text-muted-foreground hover:text-foreground">Trending</a>
+          <a href="#catalog" className="story-link hover-scale text-muted-foreground hover:text-foreground">Catalog</a>
         </nav>
       </div>
     </header>

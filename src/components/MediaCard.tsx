@@ -6,7 +6,7 @@ import type { MediaItem } from "@/data/data";
 
 export const MediaCard = ({ item }: { item: MediaItem }) => {
   return (
-    <Card className="overflow-hidden bg-card/80 backdrop-blur supports-[backdrop-filter]:bg-card/60">
+    <Card className="overflow-hidden bg-card/80 backdrop-blur supports-[backdrop-filter]:bg-card/60 hover-scale animate-fade-in">
       <div className="relative aspect-[2/3] w-full overflow-hidden">
         {item.poster ? (
           <img

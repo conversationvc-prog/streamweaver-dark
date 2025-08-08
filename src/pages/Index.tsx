@@ -36,7 +36,7 @@ const Index = () => {
 
       <main className="container space-y-12 py-8">
         <section className="grid gap-6 md:grid-cols-[1.6fr,1fr]">
-          <div className="rounded-3xl border bg-gradient-to-br from-primary/30 to-primary/5 p-6 md:p-10">
+          <div className="rounded-3xl border bg-gradient-to-br from-primary/30 to-primary/5 p-6 md:p-10 animate-fade-in">
             <div className="max-w-xl space-y-4">
               <div className="inline-flex items-center rounded-full border px-3 py-1 text-xs text-muted-foreground">Now Streaming</div>
               <h1 className="text-3xl font-extrabold tracking-tight md:text-5xl">Watch movies & series in a sleek, modern dark UI</h1>

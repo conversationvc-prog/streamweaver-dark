@@ -24,7 +24,7 @@ export const SearchBar = ({
   onSubmit,
 }: SearchBarProps) => {
   return (
-    <div className="rounded-2xl border bg-card p-4 sm:p-6">
+    <div className="rounded-2xl border bg-card p-4 sm:p-6 animate-fade-in">
       <div className="flex items-center gap-2 rounded-xl border bg-background px-3 py-2">
         <Search className="h-5 w-5 text-muted-foreground" />
         <Input
@@ -41,7 +41,7 @@ export const SearchBar = ({
       <div className="mt-3 flex flex-wrap items-center gap-3">
         <Select value={typeFilter} onValueChange={(v: any) => onTypeFilterChange(v)}>
           <SelectTrigger className="w-[160px]"><SelectValue placeholder="All" /></SelectTrigger>
-          <SelectContent>
+          <SelectContent className="z-50 bg-popover">
             <SelectItem value="all">All</SelectItem>
             <SelectItem value="movie">Movies</SelectItem>
             <SelectItem value="series">Series</SelectItem>
@@ -49,7 +49,7 @@ export const SearchBar = ({
         </Select>
         <Select value={genreFilter} onValueChange={(v: any) => onGenreFilterChange(v)}>
           <SelectTrigger className="w-[200px]"><SelectValue placeholder="All Genres" /></SelectTrigger>
-          <SelectContent>
+          <SelectContent className="z-50 bg-popover">
             <SelectItem value="all">All Genres</SelectItem>
             {ALL_GENRES.map((g) => (
               <SelectItem key={g} value={g}>{g}</SelectItem>
