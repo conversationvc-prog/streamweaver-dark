@@ -121,28 +121,28 @@ export const MEDIA: MediaItem[] = [
     },
   },
   {
-    id: "open-movie-series",
+    id: "Wednesday Season 2",
     type: "series",
-    title: "Open Movie Shorts",
+    title: "Wednesday Season 2",
     year: 2025,
-    rating: 7.4,
-    genres: ["Animation", "Short"],
+    rating: 8.0,
+    genres: ["Action", "horror"],
     description:
-      "A mini anthology of open movies used for demo. Select a season and episode to play.",
+      "Wednesday returns to Nevermore and while developing her psychic abilities she must face a new tormentor and prevent Enid's death.",
     poster:
-      "https://upload.wikimedia.org/wikipedia/commons/6/6d/Tears_of_Steel_-_movie_poster.jpg",
+      "https://static.wikia.nocookie.net/addamsfamily/images/b/b5/Season_2_Poster.jpeg/revision/latest?cb=20250422205134",
     seasons: [
       {
         id: "s1",
         number: 1,
-        title: "Volume 1",
+        title: "",
         episodes: [
           {
             id: "e1",
             number: 1,
-            title: "Big Buck Bunny",
+            title: "Here We Woe Again",
             source: {
-              url: "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4",
+              url: "https://www.dailymotion.com/video/x9obqey",
               provider: "direct",
             },
           },
