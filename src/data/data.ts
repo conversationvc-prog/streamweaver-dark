@@ -86,6 +86,22 @@ export const MEDIA: MediaItem[] = [
       url: "https://fmoviesunblocked.net/spa/videoPlayPage/movies/transformers-revenge-of-the-fallen-6JPSXA2wt71?id=940503673887671224&type=/movie/detail",
       provider: "direct",
     },
+     {
+    id: "Interstellar [Hindi]",
+    type: "movie",
+    title: "Interstellar [Hindi]",
+    year: 2014,
+    rating: 8.7,
+    genres: ["Advanture", "Drama", "Sci-Fi"],
+    description:
+      "A team of explorers travel through a wormhole in space in an attempt to ensure humanity&apos;s survival.",
+    poster:
+      "https://pacdn.aoneroom.com/image/2022/09/02/53c4b56b3f1d8024bb953dc516767c13.jpg?x-oss-process=image/resize%2Cw_250",
+    source: {
+      // Direct MP4 (fast to demo). You can replace with a YouTube or Archive link.
+      url: "https://fmoviesunblocked.net/spa/videoPlayPage/movies/interstellar-hindi-atK4mXcca06?id=5038022591622040232&type=/movie/detail",
+      provider: "direct",
+    },
   },
   {
     id: "sintel",
