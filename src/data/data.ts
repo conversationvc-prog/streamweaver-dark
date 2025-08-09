@@ -130,7 +130,7 @@ export const MEDIA: MediaItem[] = [
     description:
       "Wednesday returns to Nevermore and while developing her psychic abilities she must face a new tormentor and prevent Enid's death.",
     poster:
-      "https://static.wikia.nocookie.net/addamsfamily/images/b/b5/Season_2_Poster.jpeg/revision/latest?cb=20250422205134",
+      "https://pacdn.aoneroom.com/image/2024/04/15/33d8c2d05bf29255c239b0c0ad8a570d.jpg?x-oss-process=image/resize%2Cw_250",
     seasons: [
       {
         id: "s1",
