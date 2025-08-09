@@ -137,6 +137,22 @@ export const MEDIA: MediaItem[] = [
     },
   },
   {
+    id: "Bring Her Back",
+    type: "movie",
+    title: "Bring Her Back",
+    year: 2025,
+    rating: 7.3,
+    genres: ["Australia", "horror", "mistery"],
+    description:
+      "A brother and sister uncover a terrifying ritual at the secluded home of their new foster mother.",
+    poster:
+      "https://m.media-amazon.com/images/M/MV5BZTlhYTk1ZTEtOWY3NC00NWQ5LTlkOTctNjQ3ZDYyZGE5ZWNlXkEyXkFqcGc@._V1_.jpg",
+    source: {
+      url: "https://www.febspot.com/get_file/30/1e3e68b071de7af5d7b889354c8908b2/2870000/2870636/2870636_720p.mp4",
+      provider: "direct",
+    },
+  },
+  {
     id: "Wednesday S2",
     type: "series",
     title: "Open Movie Shorts",
