@@ -165,7 +165,7 @@ export const MEDIA: MediaItem[] = [
     poster:
       "https://m.media-amazon.com/images/M/MV5BZTlhYTk1ZTEtOWY3NC00NWQ5LTlkOTctNjQ3ZDYyZGE5ZWNlXkEyXkFqcGc@._V1_.jpg",
     source: {
-      url: "https://st25.febspot.com/remote_control.php?time=1754731874&cv=b60ddc8327092993e135765df3ec80a5&lr=0&cv2=8af48124adbb0ffe0dcfaba62abd9f51&file=%2Fvideos%2F2870000%2F2870636%2F2870636_720p.mp4&cv3=6f466072b403ded75718b0fb3f2d192f&cv4=40f0ac2791df0e96968d16053b15d650",
+      url: "https://fmoviesunblocked.net/spa/videoPlayPage/movies/bring-her-back-hindi-oWDzQRO5Jz8?id=7198038758233981256&type=/movie/detail",
       provider: "direct",
     },
   },
@@ -181,7 +181,7 @@ export const MEDIA: MediaItem[] = [
     poster:
       "https://image.tmdb.org/t/p/original/mIBCtPvKZQlxubxKMeViO2UrP3q.jpg",
     source: {
-      url: "https://st9.febspot.com/remote_control.php?file=B64YTo0OntzOjQ6InRpbWUiO2k6MTc1NDczMTc3ODtzOjU6ImxpbWl0IjtpOjA7czo0OiJmaWxlIjtzOjM3OiIvdmlkZW9zLzk0NTAwMC85NDUxMDcvOTQ1MTA3XzcyMHAubXA0IjtzOjI6ImN2IjtzOjMyOiI4ZGE0MDM1MGY2ZGM4M2E3ODU3NGM0NThiOTkyZjM2NSI7fQ%3D%3D",
+      url: "https://fmoviesunblocked.net/spa/videoPlayPage/movies/evil-dead-rise-hindi-eDge5bJBef2?id=1884844657314596608&type=/movie/detail",
       provider: "direct",
     },
   },
