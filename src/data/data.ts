@@ -161,7 +161,7 @@ export const MEDIA: MediaItem[] = [
             title: "Call of the Woe",
             source: {
               // Internet Archive embed works via iframe
-              url: "https://www.dailymotion.com/video/x9o9gdq",
+              url: "https://www.dailymotion.com/video/x9od9l6",
               provider: "archive",
             },
           },
