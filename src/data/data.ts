@@ -102,7 +102,6 @@ export const MEDIA: MediaItem[] = [
       url: "https://fmoviesunblocked.net/spa/videoPlayPage/movies/interstellar-hindi-atK4mXcca06?id=5038022591622040232&type=/movie/detail",
       provider: "direct",
     },
-  },
   {
     id: "sintel",
     type: "movie",
