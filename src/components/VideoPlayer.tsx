@@ -1,6 +1,8 @@
-import React, { useMemo } from "react";
+import React, { useMemo, useRef, useCallback } from "react";
 import ReactPlayer from "react-player/lazy";
 import { AspectRatio } from "@/components/ui/aspect-ratio";
+import { Button } from "@/components/ui/button";
+import { Maximize2 } from "lucide-react";
 
 export const VideoPlayer = ({ url }: { url: string }) => {
   const { isArchive, embedUrl, canReactPlayer } = useMemo(() => {
@@ -17,8 +19,22 @@ export const VideoPlayer = ({ url }: { url: string }) => {
     return { isArchive, embedUrl, canReactPlayer };
   }, [url]);
 
+  const containerRef = useRef<HTMLDivElement | null>(null);
+  const iframeRef = useRef<HTMLIFrameElement | null>(null);
+
+  const handleFullscreen = useCallback(() => {
+    const el = iframeRef.current ?? containerRef.current;
+    if (!el) return;
+    const doc: any = document;
+    if (!doc.fullscreenElement) {
+      el.requestFullscreen?.();
+    } else {
+      doc.exitFullscreen?.();
+    }
+  }, []);
+
   return (
-    <div className="w-full">
+    <div className="w-full" ref={containerRef}>
       <AspectRatio ratio={16 / 9} className="overflow-hidden rounded-xl border bg-muted relative">
         {isArchive ? (
           <iframe
@@ -43,30 +59,31 @@ export const VideoPlayer = ({ url }: { url: string }) => {
             }}
           />
         ) : (
-          <iframe
-            src={url}
-            title="Embedded Page Player"
-            className="h-full w-full"
-            loading="lazy"
-            allow="autoplay; fullscreen; picture-in-picture"
-            sandbox="allow-scripts allow-same-origin allow-forms allow-pointer-lock allow-presentation"
-            referrerPolicy="no-referrer"
-          />
+          <>
+            <Button
+              type="button"
+              onClick={handleFullscreen}
+              variant="secondary"
+              size="icon"
+              className="absolute right-2 top-2 z-10 shadow hover-scale animate-fade-in"
+              aria-label="Toggle fullscreen"
+            >
+              <Maximize2 className="h-4 w-4" />
+            </Button>
+            <iframe
+              ref={iframeRef}
+              src={url}
+              title="Embedded Page Player"
+              className="h-full w-full"
+              loading="lazy"
+              allow="autoplay; fullscreen; picture-in-picture; encrypted-media"
+              sandbox="allow-scripts allow-same-origin allow-forms allow-pointer-lock allow-presentation allow-popups"
+              referrerPolicy="no-referrer"
+              allowFullScreen
+            />
+          </>
         )}
       </AspectRatio>
-      {!canReactPlayer && !isArchive && (
-        <p className="mt-2 text-xs text-muted-foreground">
-          If this site blocks embedding, open directly: {" "}
-          <a
-            href={url}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="underline"
-          >
-            Open in new tab
-          </a>
-        </p>
-      )}
     </div>
   );
 };
