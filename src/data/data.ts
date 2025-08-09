@@ -144,6 +144,7 @@ export const MEDIA: MediaItem[] = [
             source: {
               url: "https://st25.febspot.com/remote_control.php?time=1754727123&cv=9d8a5508c6107d8b5ef612d561bf476d&lr=0&cv2=3a88ef8de5a2433095588fa00fc3649d&file=%2Fvideos%2F2895000%2F2895079%2F2895079_720p.mp4&cv3=6f466072b403ded75718b0fb3f2d192f&cv4=91407b9612ec10a590b248c90037be64",
               provider: "direct",
+             },
             },
           },
         ],
