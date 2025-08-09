@@ -36,8 +36,19 @@ export const VideoPlayer = ({ url }: { url: string }) => {
   return (
     <div className="w-full" ref={containerRef}>
       <AspectRatio ratio={16 / 9} className="overflow-hidden rounded-xl border bg-muted relative">
+        <Button
+          type="button"
+          onClick={handleFullscreen}
+          variant="secondary"
+          size="icon"
+          className="absolute right-2 top-2 z-10 shadow hover-scale animate-fade-in"
+          aria-label="Toggle fullscreen"
+        >
+          <Maximize2 className="h-4 w-4" />
+        </Button>
         {isArchive ? (
           <iframe
+            ref={iframeRef}
             src={embedUrl}
             title="Internet Archive Player"
             className="h-full w-full"
@@ -54,34 +65,29 @@ export const VideoPlayer = ({ url }: { url: string }) => {
             height="100%"
             style={{ position: "absolute", inset: 0 }}
             config={{
-              youtube: { playerVars: { modestbranding: 1, rel: 0 } },
-              file: { attributes: { controlsList: "nodownload" } },
+              youtube: { playerVars: { modestbranding: 1, rel: 0, playsinline: 1 } },
+              file: {
+                attributes: { controlsList: "nodownload" },
+                forceHLS: true,
+                hlsVersion: "1.5.7",
+                hlsOptions: { lowLatencyMode: true },
+              },
             }}
+            playsinline
+            pip
           />
         ) : (
-          <>
-            <Button
-              type="button"
-              onClick={handleFullscreen}
-              variant="secondary"
-              size="icon"
-              className="absolute right-2 top-2 z-10 shadow hover-scale animate-fade-in"
-              aria-label="Toggle fullscreen"
-            >
-              <Maximize2 className="h-4 w-4" />
-            </Button>
-            <iframe
-              ref={iframeRef}
-              src={url}
-              title="Embedded Page Player"
-              className="h-full w-full"
-              loading="lazy"
-              allow="autoplay; fullscreen; picture-in-picture; encrypted-media"
-              sandbox="allow-scripts allow-same-origin allow-forms allow-pointer-lock allow-presentation allow-popups"
-              referrerPolicy="no-referrer"
-              allowFullScreen
-            />
-          </>
+          <iframe
+            ref={iframeRef}
+            src={url}
+            title="Embedded Page Player"
+            className="h-full w-full"
+            loading="lazy"
+            allow="autoplay; fullscreen; picture-in-picture; encrypted-media"
+            sandbox="allow-scripts allow-same-origin allow-forms allow-pointer-lock allow-presentation allow-popups"
+            referrerPolicy="no-referrer"
+            allowFullScreen
+          />
         )}
       </AspectRatio>
     </div>
