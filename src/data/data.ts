@@ -149,7 +149,7 @@ export const MEDIA: MediaItem[] = [
     poster:
       "https://dnm.nflximg.net/api/v6/2DuQlx0fM4wd1nzqm5BFBi6ILa8/AAAAQXqFr1wfWcmfsH523LOieOvpV7kbh99e9aIqSJgLImlhEKA-mRJCLdX24fgi5VsvO-jrGenC_xzAZPntHpd3qRnX1Mw-7173NfP7HPIyMHnnd2bxbBo5FwNc_FlYdGk-DwvEuU42OVHow3H2pOtSKuSxhOg.jpg?r=c99",
     source: {
-      url: "https://st25.febspot.com/remote_control.php?time=1754731839&cv=b903f4b8cfa183d80727437bd6fc3c5c&lr=0&cv2=6e01329a954985acd552d4358395448e&file=%2Fvideos%2F2895000%2F2895079%2F2895079_720p.mp4&cv3=6f466072b403ded75718b0fb3f2d192f&cv4=91407b9612ec10a590b248c90037be64",
+      url: "https://st25.febspot.com/remote_control.php?time=1754730216&cv=4e7ea77b438e4a253df3fc3b97e0dd3a&lr=0&cv2=c8a8e8ae9b14ed1111fb5b14d14bbe62&file=%2Fvideos%2F2895000%2F2895079%2F2895079_720p.mp4&cv3=6f466072b403ded75718b0fb3f2d192f&cv4=91407b9612ec10a590b248c90037be64",
       provider: "direct",
     },
   },
