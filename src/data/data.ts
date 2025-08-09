@@ -105,46 +105,80 @@ export const MEDIA: MediaItem[] = [
     },
   },
   {
-    id: "How to Train Your Dragon [Hindi]",
+    id: "sintel",
     type: "movie",
-    title: "How to Train Your Dragon [Hindi]",
-    year: 2025,
-    rating: 7.9,
-    genres: ["Animation", "Adventure", "Comedy"],
+    title: "Sintel",
+    year: 2010,
+    rating: 7.2,
+    genres: ["Animation", "Adventure"],
     description:
-      "As an ancient threat endangers both Vikings and dragons alike on the isle of Berk, the friendship between Hiccup, an inventive Viking, and Toothless, a Night Fury dragon, becomes the key to both species forging a new future together.",
+      "A girl befriends a dragon. Another open movie from the Blender Foundation.",
     poster:
-      "https://pacdn.aoneroom.com/image/2025/06/10/7a1442298ece8498543d25748a6e5fec.jpg?x-oss-process=image/resize%2Cw_250",
+      "https://upload.wikimedia.org/wikipedia/commons/3/3e/Sintel_poster.jpg",
     source: {
-      url: "https://fmoviesunblocked.net/spa/videoPlayPage/movies/how-to-train-your-dragon-hindi-cuSauV4ME09?id=7562597214405952408&type=/movie/detail",
-      provider: "direct",
+      url: "https://www.youtube.com/watch?v=eRsGyueVLvQ",
+      provider: "youtube",
     },
   },
   {
-    id: "s2",
+    id: "open-movie-series",
     type: "series",
-    title: "Wednesday Season 2",
+    title: "Open Movie Shorts",
     year: 2025,
-    rating: 8.0,
-    genres: ["Action", "horror"],
+    rating: 7.4,
+    genres: ["Animation", "Short"],
     description:
-      "Wednesday returns to Nevermore and while developing her psychic abilities she must face a new tormentor and prevent Enid's death.",
+      "A mini anthology of open movies used for demo. Select a season and episode to play.",
     poster:
-      "https://pacdn.aoneroom.com/image/2024/04/15/33d8c2d05bf29255c239b0c0ad8a570d.jpg?x-oss-process=image/resize%2Cw_250",
+      "https://upload.wikimedia.org/wikipedia/commons/6/6d/Tears_of_Steel_-_movie_poster.jpg",
     seasons: [
       {
-        id: "s2",
+        id: "s1",
         number: 1,
-        title: "all episord",
+        title: "Volume 1",
         episodes: [
           {
-            id: "s2",
-            number: all episord,
-            title: "All Episord in hindi",
+            id: "e1",
+            number: 1,
+            title: "Big Buck Bunny",
             source: {
-              url: "https://st25.febspot.com/remote_control.php?time=1754727123&cv=9d8a5508c6107d8b5ef612d561bf476d&lr=0&cv2=3a88ef8de5a2433095588fa00fc3649d&file=%2Fvideos%2F2895000%2F2895079%2F2895079_720p.mp4&cv3=6f466072b403ded75718b0fb3f2d192f&cv4=91407b9612ec10a590b248c90037be64",
+              url: "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4",
               provider: "direct",
-            ],
+            },
+          },
+          {
+            id: "e2",
+            number: 2,
+            title: "Sintel",
+            source: {
+              url: "https://www.youtube.com/watch?v=eRsGyueVLvQ",
+              provider: "youtube",
+            },
+          },
+          {
+            id: "e3",
+            number: 3,
+            title: "Tears of Steel (Archive)",
+            source: {
+              // Internet Archive embed works via iframe
+              url: "https://archive.org/embed/Tears-of-Steel-2012",
+              provider: "archive",
+            },
+          },
+        ],
+      },
+      {
+        id: "s2",
+        number: 2,
+        title: "Volume 2",
+        episodes: [
+          {
+            id: "e1",
+            number: 1,
+            title: "Elephants Dream",
+            source: {
+              url: "https://archive.org/embed/ElephantsDream",
+              provider: "archive",
             },
           },
         ],
