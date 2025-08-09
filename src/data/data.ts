@@ -71,19 +71,19 @@ export type MediaItem = {
 
 export const MEDIA: MediaItem[] = [
   {
-    id: "big-buck-bunny",
+    id: "Transformers: Revenge of the Fallen",
     type: "movie",
-    title: "Big Buck Bunny",
-    year: 2008,
-    rating: 7.5,
-    genres: ["Animation", "Comedy"],
+    title: "Transformers: Revenge of the Fallen",
+    year: 2009,
+    rating: 6.0,
+    genres: ["Advanture", "Action", "Sci-Fi"],
     description:
-      "A giant rabbit seeks revenge against criminal rodents. Open movie from the Blender Foundation.",
+      "Taking place after Revenge of the Fallen, the war between Autobots and Decepticons continue to rage on. In order to bring down the heroes, Megatron plans to unleash a powerful Transformer named Shockwave.",
     poster:
-      "https://upload.wikimedia.org/wikipedia/commons/7/70/Big.Buck.Bunny.-.Opening.Titles.png",
+      "https://pacdn.aoneroom.com/image/2024/12/12/076d284a6f9e0d758e9c5e86e8e31348.jpg?x-oss-process=image/resize%2Cw_250",
     source: {
       // Direct MP4 (fast to demo). You can replace with a YouTube or Archive link.
-      url: "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4",
+      url: "https://fmoviesunblocked.net/spa/videoPlayPage/movies/transformers-revenge-of-the-fallen-6JPSXA2wt71?id=940503673887671224&type=/movie/detail",
       provider: "direct",
     },
   },
