@@ -133,36 +133,17 @@ export const MEDIA: MediaItem[] = [
       "https://pacdn.aoneroom.com/image/2024/04/15/33d8c2d05bf29255c239b0c0ad8a570d.jpg?x-oss-process=image/resize%2Cw_250",
     seasons: [
       {
-        id: "s1",
+        id: "s2",
         number: 1,
-        title: "",
+        title: "all episord",
         episodes: [
           {
-            id: "e1",
-            number: 1,
-            title: "Here We Woe Again",
+            id: "s2",
+            number: all episord,
+            title: "All Episord in hindi",
             source: {
-              url: "https://st25.febspot.com/remote_control.php?time=1754721022&cv=7fcde1b25acfb2e2c15816cc4fe6b7bf&lr=0&cv2=6b001115f38d6ce5ef167cee4976de45&file=%2Fvideos%2F2895000%2F2895070%2F2895070_720p.mp4&cv3=6f466072b403ded75718b0fb3f2d192f&cv4=33a84f944a67a2fc87718336cc3b7bbd",
+              url: "https://st25.febspot.com/remote_control.php?time=1754727123&cv=9d8a5508c6107d8b5ef612d561bf476d&lr=0&cv2=3a88ef8de5a2433095588fa00fc3649d&file=%2Fvideos%2F2895000%2F2895079%2F2895079_720p.mp4&cv3=6f466072b403ded75718b0fb3f2d192f&cv4=91407b9612ec10a590b248c90037be64",
               provider: "direct",
-            },
-          },
-          {
-            id: "e2",
-            number: 2,
-            title: "The Devil You Woe",
-            source: {
-              url: "https://st2.febspot.com/remote_control.php?time=1754721382&cv=2b5e1c88a9218634b6384767dbfdedd8&lr=0&cv2=7480bce3fcc18605c7101f3475588d89&file=%2Fvideos%2F2606000%2F2606134%2F2606134_720p.mp4&cv3=6f466072b403ded75718b0fb3f2d192f&cv4=5ba0307b821a0ac7836506efb5f7eb17",
-              provider: "direct",
-            },
-          },
-          {
-            id: "e3",
-            number: 3,
-            title: "Call of the Woe",
-            source: {
-              // Internet Archive embed works via iframe
-              url: "https://www.dailymotion.com/video/x9od9l6",
-              provider: "archive",
             },
           },
         ],
