@@ -105,19 +105,19 @@ export const MEDIA: MediaItem[] = [
     },
   },
   {
-    id: "sintel",
+    id: "How to Train Your Dragon [Hindi]",
     type: "movie",
-    title: "Sintel",
-    year: 2010,
-    rating: 7.2,
-    genres: ["Animation", "Adventure"],
+    title: "How to Train Your Dragon [Hindi]",
+    year: 2025,
+    rating: 7.9,
+    genres: ["Animation", "Adventure", "Comedy"],
     description:
-      "A girl befriends a dragon. Another open movie from the Blender Foundation.",
+      "As an ancient threat endangers both Vikings and dragons alike on the isle of Berk, the friendship between Hiccup, an inventive Viking, and Toothless, a Night Fury dragon, becomes the key to both species forging a new future together.",
     poster:
-      "https://upload.wikimedia.org/wikipedia/commons/3/3e/Sintel_poster.jpg",
+      "https://pacdn.aoneroom.com/image/2025/06/10/7a1442298ece8498543d25748a6e5fec.jpg?x-oss-process=image/resize%2Cw_250",
     source: {
-      url: "https://www.youtube.com/watch?v=eRsGyueVLvQ",
-      provider: "youtube",
+      url: "https://fmoviesunblocked.net/spa/videoPlayPage/movies/how-to-train-your-dragon-hindi-cuSauV4ME09?id=7562597214405952408&type=/movie/detail",
+      provider: "direct",
     },
   },
   {
