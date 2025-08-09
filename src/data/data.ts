@@ -87,6 +87,23 @@ export const MEDIA: MediaItem[] = [
       provider: "direct",
     },
     },
+  {
+    id: "The Conjuring",
+    type: "movie",
+    title: "The Conjuring",
+    year: 2013,
+    rating: 7.5,
+    genres: ["horror", "mistery", "Thriller"],
+    description:
+      "Paranormal investigators Ed and Lorraine Warren work to help a family terrorized by a dark presence in their farmhouse.",
+    poster:
+      "https://images.moviesanywhere.com/64428a3af2258a8186ca97896f1fb060/de21bfe7-e298-4210-bdef-bfac8b2c53d0.jpg",
+    source: {
+      // Direct MP4 (fast to demo). You can replace with a YouTube or Archive link.
+      url: "https://fmoviesunblocked.net/spa/videoPlayPage/movies/the-conjuring-giJNmW5iRi7?id=6130398871043850488&type=/movie/detail",
+      provider: "direct",
+    },
+    },
     {
     id: "Interstellar [Hindi]",
     type: "movie",
