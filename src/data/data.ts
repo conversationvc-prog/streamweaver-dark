@@ -154,6 +154,22 @@ export const MEDIA: MediaItem[] = [
     },
   },
   {
+    id: "Money Heist 1 to 5 [Hindi]",
+    type: "movie",
+    title: "Money Heist 1 to 5 [Hindi]",
+    year: 2025,
+    rating: 8.0,
+    genres: ["crime", "action", "drama;"],
+    description:
+      "An unusual group of robbers attempt to carry out the most perfect robbery in Spanish history - stealing 2.4 billion euros from the Royal Mint of Spain.",
+    poster:
+      "https://m.media-amazon.com/images/M/MV5BZjkxZWJiNTUtYjQwYS00MTBlLTgwODQtM2FkNWMyMjMwOGZiXkEyXkFqcGc@._V1_.jpg",
+    source: {
+      url: "https://fmoviesunblocked.net/spa/videoPlayPage/movies/money-heist-hindi-0A6xcmujYv8?id=7147213651240699592&type=/movie/detail",
+      provider: "direct",
+    },
+  },
+  {
     id: "Bring Her Back",
     type: "movie",
     title: "Bring Her Back",
