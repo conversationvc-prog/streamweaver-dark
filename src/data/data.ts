@@ -152,6 +152,22 @@ export const MEDIA: MediaItem[] = [
       provider: "direct",
     },
   },
+    {
+    id: "Evil Dead Rise",
+    type: "movie",
+    title: "Evil Dead Rise",
+    year: 2023,
+    rating: 6.5,
+    genres: ["Horror"],
+    description:
+      "A twisted tale of two estranged sisters whose reunion is cut short by the rise of flesh-possessing demons, thrusting them into a primal battle for survival as they face the most nightmarish version of family imaginable.",
+    poster:
+      "https://image.tmdb.org/t/p/original/mIBCtPvKZQlxubxKMeViO2UrP3q.jpg",
+    source: {
+      url: "https://www.febspot.com/get_file/12/473495de7153bb2804f3b1ee39277b10/945000/945107/945107_720p.mp4",
+      provider: "direct",
+    },
+  },
   {
     id: "Wednesday S2",
     type: "series",
