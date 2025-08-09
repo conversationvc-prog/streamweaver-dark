@@ -167,22 +167,6 @@ export const MEDIA: MediaItem[] = [
           },
         ],
       },
-      {
-        id: "s1",
-        number: 2,
-        title: "Volume 2",
-        episodes: [
-          {
-            id: "e1",
-            number: 1,
-            title: "Elephants Dream",
-            source: {
-              url: "https://archive.org/embed/ElephantsDream",
-              provider: "archive",
-            },
-          },
-        ],
-      },
     ],
   },
 ];
