@@ -161,7 +161,7 @@ export const MEDIA: MediaItem[] = [
             title: "Call of the Woe",
             source: {
               // Internet Archive embed works via iframe
-              url: "https://www.bilibili.tv/en/video/4796356828993536?bstar_from=bstar-web.ugc-video-detail.related-recommend.all",
+              url: "https://www.dailymotion.com/video/x9o9gdq",
               provider: "archive",
             },
           },
