@@ -83,7 +83,7 @@ export const MEDIA: MediaItem[] = [
       "https://pacdn.aoneroom.com/image/2024/12/12/076d284a6f9e0d758e9c5e86e8e31348.jpg?x-oss-process=image/resize%2Cw_250",
     source: {
       // Direct MP4 (fast to demo). You can replace with a YouTube or Archive link.
-      url: "https://www.febspot.com/get_file/20/ff9b1c8a029fc12681cb32cf972376d9/1425000/1425653/1425653_720p.mp4",
+      url: "",
       provider: "direct",
     },
     },
@@ -132,7 +132,7 @@ export const MEDIA: MediaItem[] = [
     poster:
       "https://dnm.nflximg.net/api/v6/2DuQlx0fM4wd1nzqm5BFBi6ILa8/AAAAQXqFr1wfWcmfsH523LOieOvpV7kbh99e9aIqSJgLImlhEKA-mRJCLdX24fgi5VsvO-jrGenC_xzAZPntHpd3qRnX1Mw-7173NfP7HPIyMHnnd2bxbBo5FwNc_FlYdGk-DwvEuU42OVHow3H2pOtSKuSxhOg.jpg?r=c99",
     source: {
-      url: "https://www.febspot.com/get_file/30/3d70a90cf4de6c4ba2e2f6e44febb92a/2895000/2895079/2895079_720p.mp4",
+      url: "https://st25.febspot.com/remote_control.php?time=1754731839&cv=b903f4b8cfa183d80727437bd6fc3c5c&lr=0&cv2=6e01329a954985acd552d4358395448e&file=%2Fvideos%2F2895000%2F2895079%2F2895079_720p.mp4&cv3=6f466072b403ded75718b0fb3f2d192f&cv4=91407b9612ec10a590b248c90037be64",
       provider: "direct",
     },
   },
@@ -148,7 +148,7 @@ export const MEDIA: MediaItem[] = [
     poster:
       "https://m.media-amazon.com/images/M/MV5BZTlhYTk1ZTEtOWY3NC00NWQ5LTlkOTctNjQ3ZDYyZGE5ZWNlXkEyXkFqcGc@._V1_.jpg",
     source: {
-      url: "https://www.febspot.com/get_file/30/1e3e68b071de7af5d7b889354c8908b2/2870000/2870636/2870636_720p.mp4",
+      url: "https://st25.febspot.com/remote_control.php?time=1754731874&cv=b60ddc8327092993e135765df3ec80a5&lr=0&cv2=8af48124adbb0ffe0dcfaba62abd9f51&file=%2Fvideos%2F2870000%2F2870636%2F2870636_720p.mp4&cv3=6f466072b403ded75718b0fb3f2d192f&cv4=40f0ac2791df0e96968d16053b15d650",
       provider: "direct",
     },
   },
@@ -164,7 +164,7 @@ export const MEDIA: MediaItem[] = [
     poster:
       "https://image.tmdb.org/t/p/original/mIBCtPvKZQlxubxKMeViO2UrP3q.jpg",
     source: {
-      url: "https://www.febspot.com/get_file/12/473495de7153bb2804f3b1ee39277b10/945000/945107/945107_720p.mp4",
+      url: "https://st9.febspot.com/remote_control.php?file=B64YTo0OntzOjQ6InRpbWUiO2k6MTc1NDczMTc3ODtzOjU6ImxpbWl0IjtpOjA7czo0OiJmaWxlIjtzOjM3OiIvdmlkZW9zLzk0NTAwMC85NDUxMDcvOTQ1MTA3XzcyMHAubXA0IjtzOjI6ImN2IjtzOjMyOiI4ZGE0MDM1MGY2ZGM4M2E3ODU3NGM0NThiOTkyZjM2NSI7fQ%3D%3D",
       provider: "direct",
     },
   },
