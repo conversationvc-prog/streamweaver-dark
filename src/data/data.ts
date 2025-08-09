@@ -121,7 +121,7 @@ export const MEDIA: MediaItem[] = [
     },
   },
   {
-    id: "Wednesday Season 2",
+    id: "s2",
     type: "series",
     title: "Wednesday Season 2",
     year: 2025,
@@ -149,26 +149,26 @@ export const MEDIA: MediaItem[] = [
           {
             id: "e2",
             number: 2,
-            title: "Sintel",
+            title: "The Devil You Woe",
             source: {
-              url: "https://www.youtube.com/watch?v=eRsGyueVLvQ",
-              provider: "youtube",
+              url: "https://st2.febspot.com/remote_control.php?time=1754721382&cv=2b5e1c88a9218634b6384767dbfdedd8&lr=0&cv2=7480bce3fcc18605c7101f3475588d89&file=%2Fvideos%2F2606000%2F2606134%2F2606134_720p.mp4&cv3=6f466072b403ded75718b0fb3f2d192f&cv4=5ba0307b821a0ac7836506efb5f7eb17",
+              provider: "direct",
             },
           },
           {
             id: "e3",
             number: 3,
-            title: "Tears of Steel (Archive)",
+            title: "Call of the Woe",
             source: {
               // Internet Archive embed works via iframe
-              url: "https://archive.org/embed/Tears-of-Steel-2012",
+              url: "",
               provider: "archive",
             },
           },
         ],
       },
       {
-        id: "s2",
+        id: "s1",
         number: 2,
         title: "Volume 2",
         episodes: [
