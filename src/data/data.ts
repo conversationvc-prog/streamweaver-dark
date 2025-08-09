@@ -105,19 +105,19 @@ export const MEDIA: MediaItem[] = [
     },
   },
   {
-    id: "sintel",
+    id: "The Monkey",
     type: "movie",
-    title: "Sintel",
-    year: 2010,
-    rating: 7.2,
-    genres: ["Animation", "Adventure"],
+    title: "The Monkey",
+    year: 2025,
+    rating: 6.0,
+    genres: ["horror"],
     description:
-      "A girl befriends a dragon. Another open movie from the Blender Foundation.",
+      "When twin brothers Bill and Hal find their father's old monkey toy in the attic, a series of gruesome deaths start. The siblings decide to throw the toy away and move on with their lives, growing apart over the years.",
     poster:
-      "https://upload.wikimedia.org/wikipedia/commons/3/3e/Sintel_poster.jpg",
+      "https://m.media-amazon.com/images/M/MV5BNzZhMTc5MWUtOTE2MS00MjUwLTljYWEtYTk1ZmVjNzhmMzYzXkEyXkFqcGc@._V1_.jpg",
     source: {
-      url: "https://www.youtube.com/watch?v=eRsGyueVLvQ",
-      provider: "youtube",
+      url: "https://st25.febspot.com/remote_control.php?time=1754732903&cv=646473dfba8ce9566935fc663f810b20&lr=0&cv2=9079ad939968d0b6c7e7bf8d67e3cfb4&file=%2Fvideos%2F2856000%2F2856975%2F2856975_720p.mp4&cv3=6f466072b403ded75718b0fb3f2d192f&cv4=cb89240fea5306275e3311bcb428c2b1",
+      provider: "direct",
     },
   },
   {
