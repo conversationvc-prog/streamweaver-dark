@@ -154,11 +154,11 @@ export const MEDIA: MediaItem[] = [
     },
   },
   {
-    id: "Money Heist 1 to 5 [Hindi]",
+    id: "Money Heist season 1 to 5 [Hindi]",
     type: "movie",
-    title: "Money Heist 1 to 5 [Hindi]",
-    year: 2025,
-    rating: 8.0,
+    title: "Money Heist season 1 to 5 [Hindi]",
+    year: 2017,
+    rating: 8.2,
     genres: ["crime", "action", "drama;"],
     description:
       "An unusual group of robbers attempt to carry out the most perfect robbery in Spanish history - stealing 2.4 billion euros from the Royal Mint of Spain.",
@@ -198,6 +198,22 @@ export const MEDIA: MediaItem[] = [
       "https://image.tmdb.org/t/p/original/mIBCtPvKZQlxubxKMeViO2UrP3q.jpg",
     source: {
       url: "https://fmoviesunblocked.net/spa/videoPlayPage/movies/evil-dead-rise-hindi-eDge5bJBef2?id=1884844657314596608&type=/movie/detail",
+      provider: "direct",
+    },
+  },
+   {
+    id: "Blue Lock season 1 to 2 [Hindi]",
+    type: "movie",
+    title: "Blue Lock season 1 to 2 [Hindi]",
+    year: 2022,
+    rating: 8.1,
+    genres: ["anime", "sport", "Thriller"],
+    description:
+      "High school soccer players from across Japan gather for a controversial project designed to create the best and most egoistic striker in the world.",
+    poster:
+      "https://m.media-amazon.com/images/M/MV5BNWFlNmJkN2YtNGRiZS00NjExLTlmNmEtYzdiMTdiZmMzYzAwXkEyXkFqcGc@._V1_QL75_UX190_CR0,2,190,281_.jpg",
+    source: {
+      url: "https://fmoviesunblocked.net/spa/videoPlayPage/movies/blue-lock-hindi-eRPvdh1a3s8?id=7094123659279091624&type=/movie/detail",
       provider: "direct",
     },
   },
