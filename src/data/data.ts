@@ -83,7 +83,7 @@ export const MEDIA: MediaItem[] = [
       "https://pacdn.aoneroom.com/image/2024/12/12/076d284a6f9e0d758e9c5e86e8e31348.jpg?x-oss-process=image/resize%2Cw_250",
     source: {
       // Direct MP4 (fast to demo). You can replace with a YouTube or Archive link.
-      url: "",
+      url: "https://st16.febspot.com/remote_control.php?file=B64YTo0OntzOjQ6InRpbWUiO2k6MTc1NDczMjMxODtzOjU6ImxpbWl0IjtpOjA7czo0OiJmaWxlIjtzOjQwOiIvdmlkZW9zLzE0MjUwMDAvMTQyNTY1My8xNDI1NjUzXzcyMHAubXA0IjtzOjI6ImN2IjtzOjMyOiIxZmM2ODBmMDliOGRhYjY1NjYxNjk5YzFjMTA4YzgyZCI7fQ%3D%3D",
       provider: "direct",
     },
     },
