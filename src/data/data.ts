@@ -83,7 +83,7 @@ export const MEDIA: MediaItem[] = [
       "https://pacdn.aoneroom.com/image/2024/12/12/076d284a6f9e0d758e9c5e86e8e31348.jpg?x-oss-process=image/resize%2Cw_250",
     source: {
       // Direct MP4 (fast to demo). You can replace with a YouTube or Archive link.
-      url: "https://st16.febspot.com/remote_control.php?file=B64YTo0OntzOjQ6InRpbWUiO2k6MTc1NDczMjMxODtzOjU6ImxpbWl0IjtpOjA7czo0OiJmaWxlIjtzOjQwOiIvdmlkZW9zLzE0MjUwMDAvMTQyNTY1My8xNDI1NjUzXzcyMHAubXA0IjtzOjI6ImN2IjtzOjMyOiIxZmM2ODBmMDliOGRhYjY1NjYxNjk5YzFjMTA4YzgyZCI7fQ%3D%3D",
+      url: "https://fmoviesunblocked.net/spa/videoPlayPage/movies/transformers-revenge-of-the-fallen-hindi-qrZmavjRv0a?id=8399949955288499688&type=/movie/detail",
       provider: "direct",
     },
     },
@@ -117,7 +117,7 @@ export const MEDIA: MediaItem[] = [
       "https://upload.wikimedia.org/wikipedia/en/8/80/How_To_Train_Your_Dragon_2025_Poster.jpg",
     source: {
       // Direct MP4 (fast to demo). You can replace with a YouTube or Archive link.
-      url: "https://st25.febspot.com/remote_control.php?time=1754733493&cv=c4e114d9a18ef21693bfded9b742a7f6&lr=0&cv2=183c0af0eb50c7f26a8a9645e69e82b1&file=%2Fvideos%2F2827000%2F2827568%2F2827568_720p.mp4&cv3=6f466072b403ded75718b0fb3f2d192f&cv4=1fed5690ea40b0b86a702101e2abf8c6",
+      url: "https://fmoviesunblocked.net/spa/videoPlayPage/movies/how-to-train-your-dragon-hindi-cuSauV4ME09?id=7562597214405952408&type=/movie/detail",
       provider: "direct",
     },
   },
@@ -133,15 +133,15 @@ export const MEDIA: MediaItem[] = [
     poster:
       "https://m.media-amazon.com/images/M/MV5BNzZhMTc5MWUtOTE2MS00MjUwLTljYWEtYTk1ZmVjNzhmMzYzXkEyXkFqcGc@._V1_.jpg",
     source: {
-      url: "https://st25.febspot.com/remote_control.php?time=1754732903&cv=646473dfba8ce9566935fc663f810b20&lr=0&cv2=9079ad939968d0b6c7e7bf8d67e3cfb4&file=%2Fvideos%2F2856000%2F2856975%2F2856975_720p.mp4&cv3=6f466072b403ded75718b0fb3f2d192f&cv4=cb89240fea5306275e3311bcb428c2b1",
+      url: "https://fmoviesunblocked.net/spa/videoPlayPage/movies/the-monkey-hindi-ahsncAPM8O?id=678773015634657760&type=/movie/detail",
       provider: "direct",
     },
   },
   {
-    id: "Wednesday Season 2",
+    id: "Wednesday Season 1&2",
     type: "movie",
-    title: "Wednesday Season 2 All Episord [Hindi]",
-    year: 2025,
+    title: "Wednesday Season 1&2 All Episord [Hindi]",
+    year: 2025 , 2022,
     rating: 8.0,
     genres: ["crime", "comedy", "fantacy"],
     description:
@@ -149,7 +149,7 @@ export const MEDIA: MediaItem[] = [
     poster:
       "https://dnm.nflximg.net/api/v6/2DuQlx0fM4wd1nzqm5BFBi6ILa8/AAAAQXqFr1wfWcmfsH523LOieOvpV7kbh99e9aIqSJgLImlhEKA-mRJCLdX24fgi5VsvO-jrGenC_xzAZPntHpd3qRnX1Mw-7173NfP7HPIyMHnnd2bxbBo5FwNc_FlYdGk-DwvEuU42OVHow3H2pOtSKuSxhOg.jpg?r=c99",
     source: {
-      url: "https://st25.febspot.com/remote_control.php?time=1754730216&cv=4e7ea77b438e4a253df3fc3b97e0dd3a&lr=0&cv2=c8a8e8ae9b14ed1111fb5b14d14bbe62&file=%2Fvideos%2F2895000%2F2895079%2F2895079_720p.mp4&cv3=6f466072b403ded75718b0fb3f2d192f&cv4=91407b9612ec10a590b248c90037be64",
+      url: "https://fmoviesunblocked.net/spa/videoPlayPage/movies/wednesday-hindi-kIx7IplYsG1?id=1414183037004383720&type=/movie/detail",
       provider: "direct",
     },
   },
