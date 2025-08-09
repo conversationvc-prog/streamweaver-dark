@@ -6,7 +6,7 @@ import type { MediaItem } from "@/data/data";
 
 export const MediaCard = ({ item }: { item: MediaItem }) => {
   return (
-    <Card className="overflow-hidden bg-card/80 backdrop-blur supports-[backdrop-filter]:bg-card/60 animate-fade-in">
+    <Card className="group relative overflow-hidden bg-card/80 backdrop-blur supports-[backdrop-filter]:bg-card/60 animate-fade-in">
       <div className="relative aspect-[2/3] w-full overflow-hidden">
         {item.poster ? (
           <img
@@ -23,15 +23,19 @@ export const MediaCard = ({ item }: { item: MediaItem }) => {
           {item.year && <Badge variant="outline">{item.year}</Badge>}
           {item.rating && <Badge variant="default">⭐ {item.rating}</Badge>}
         </div>
-      </div>
-      <div className="space-y-2 p-4">
-        <h3 className="line-clamp-1 text-base font-semibold">{item.title}</h3>
-        <p className="line-clamp-2 text-sm text-muted-foreground">{item.description}</p>
-        <div className="flex items-center justify-between pt-1">
-          <div className="text-xs text-muted-foreground line-clamp-1">{item.genres.join(' • ')}</div>
-          <Button asChild size="sm">
-            <Link to={`/watch/${item.id}`}>Watch</Link>
-          </Button>
+
+        {/* Hover overlay with details */}
+        <div className="pointer-events-none absolute inset-0 flex items-end bg-gradient-to-t from-background/90 via-background/40 to-transparent opacity-0 transition-opacity duration-300 group-hover:opacity-100 group-focus-within:opacity-100">
+          <div className="pointer-events-auto w-full space-y-2 p-4 animate-fade-in">
+            <h3 className="line-clamp-2 text-base font-semibold">{item.title}</h3>
+            <p className="line-clamp-3 text-sm text-muted-foreground">{item.description}</p>
+            <div className="flex items-center justify-between pt-1">
+              <div className="line-clamp-1 text-xs text-muted-foreground">{item.genres.join(' • ')}</div>
+              <Button asChild size="sm" variant="secondary">
+                <Link to={`/watch/${item.id}`} aria-label={`Watch ${item.title}`}>Watch</Link>
+              </Button>
+            </div>
+          </div>
         </div>
       </div>
     </Card>
