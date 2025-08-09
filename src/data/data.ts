@@ -86,6 +86,7 @@ export const MEDIA: MediaItem[] = [
       url: "https://fmoviesunblocked.net/spa/videoPlayPage/movies/transformers-revenge-of-the-fallen-6JPSXA2wt71?id=940503673887671224&type=/movie/detail",
       provider: "direct",
     },
+    },
     {
     id: "Interstellar [Hindi]",
     type: "movie",
@@ -102,6 +103,7 @@ export const MEDIA: MediaItem[] = [
       url: "https://fmoviesunblocked.net/spa/videoPlayPage/movies/interstellar-hindi-atK4mXcca06?id=5038022591622040232&type=/movie/detail",
       provider: "direct",
     },
+  },
   {
     id: "sintel",
     type: "movie",
