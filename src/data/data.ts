@@ -105,6 +105,23 @@ export const MEDIA: MediaItem[] = [
     },
   },
   {
+    id: "How to Train Your Dragon",
+    type: "movie",
+    title: "How to Train Your Dragon ",
+    year: 2025,
+    rating: 9.0,
+    genres: ["Advanture", "Comedy", "Action"],
+    description:
+      "As an ancient threat endangers both Vikings and dragons alike on the isle of Berk, the friendship between Hiccup, an inventive Viking, and Toothless, a Night Fury dragon, becomes the key to both species forging a new future together.",
+    poster:
+      "https://upload.wikimedia.org/wikipedia/en/8/80/How_To_Train_Your_Dragon_2025_Poster.jpg",
+    source: {
+      // Direct MP4 (fast to demo). You can replace with a YouTube or Archive link.
+      url: "https://st25.febspot.com/remote_control.php?time=1754733493&cv=c4e114d9a18ef21693bfded9b742a7f6&lr=0&cv2=183c0af0eb50c7f26a8a9645e69e82b1&file=%2Fvideos%2F2827000%2F2827568%2F2827568_720p.mp4&cv3=6f466072b403ded75718b0fb3f2d192f&cv4=1fed5690ea40b0b86a702101e2abf8c6",
+      provider: "direct",
+    },
+  },
+  {
     id: "The Monkey",
     type: "movie",
     title: "The Monkey",
