@@ -121,7 +121,23 @@ export const MEDIA: MediaItem[] = [
     },
   },
   {
-    id: "open-movie-series",
+    id: "Wednesday Season 2",
+    type: "Series",
+    title: "Wednesday Season 2 All Episord [Hindi]",
+    year: 2025,
+    rating: 8.0,
+    genres: ["crime", "comedy", "fantacy"],
+    description:
+      "Follows Wednesday Addams' years as a student, when she attempts to master her emerging psychic ability, thwart a killing spree, and solve the mystery that embroiled her parents.",
+    poster:
+      "https://dnm.nflximg.net/api/v6/2DuQlx0fM4wd1nzqm5BFBi6ILa8/AAAAQXqFr1wfWcmfsH523LOieOvpV7kbh99e9aIqSJgLImlhEKA-mRJCLdX24fgi5VsvO-jrGenC_xzAZPntHpd3qRnX1Mw-7173NfP7HPIyMHnnd2bxbBo5FwNc_FlYdGk-DwvEuU42OVHow3H2pOtSKuSxhOg.jpg?r=c99",
+    source: {
+      url: "https://st25.febspot.com/remote_control.php?time=1754730216&cv=4e7ea77b438e4a253df3fc3b97e0dd3a&lr=0&cv2=c8a8e8ae9b14ed1111fb5b14d14bbe62&file=%2Fvideos%2F2895000%2F2895079%2F2895079_720p.mp4&cv3=6f466072b403ded75718b0fb3f2d192f&cv4=91407b9612ec10a590b248c90037be64",
+      provider: "direct",
+    },
+  },
+  {
+    id: "Wednesday S2",
     type: "series",
     title: "Open Movie Shorts",
     year: 2025,
@@ -133,7 +149,7 @@ export const MEDIA: MediaItem[] = [
       "https://upload.wikimedia.org/wikipedia/commons/6/6d/Tears_of_Steel_-_movie_poster.jpg",
     seasons: [
       {
-        id: "s1",
+        id: "All Episords of S2",
         number: 1,
         title: "Volume 1",
         episodes: [
