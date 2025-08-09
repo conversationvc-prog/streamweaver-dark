@@ -141,7 +141,7 @@ export const MEDIA: MediaItem[] = [
     id: "Wednesday Season 1&2",
     type: "movie",
     title: "Wednesday Season 1&2 All Episord [Hindi]",
-    year: 2025 , 2022,
+    year: 2025,
     rating: 8.0,
     genres: ["crime", "comedy", "fantacy"],
     description:
