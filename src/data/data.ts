@@ -88,6 +88,23 @@ export const MEDIA: MediaItem[] = [
     },
     },
   {
+    id: "The Conjuring 2",
+    type: "movie",
+    title: "The Conjuring 2",
+    year: 2016,
+    rating: 7.3,
+    genres: ["horror", "mistery", "Thriller"],
+    description:
+      "Ed and Lorraine Warren travel to North London to help a single mother raising four children alone in a house plagued by a supernatural spirit.",
+    poster:
+      "https://angelusnews.com/wp-content/uploads/2019/09/7uhunmnx25_Movies___Conjuring_2.jpg",
+    source: {
+      // Direct MP4 (fast to demo). You can replace with a YouTube or Archive link.
+      url: "https://fmoviesunblocked.net/spa/videoPlayPage/movies/the-conjuring-2-g6X954cAMf9?id=7767358379546525944&type=/movie/detail",
+      provider: "direct",
+    },
+    },
+  {
     id: "The Conjuring",
     type: "movie",
     title: "The Conjuring",
