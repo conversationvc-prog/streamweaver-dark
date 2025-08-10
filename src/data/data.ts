@@ -325,7 +325,7 @@ export const MEDIA: MediaItem[] = [
               title: "Episode 1: Cruelty",
               source: {
                 // Demo source; replace with your preferred link
-                url: "https://st2.febspot.com/remote_control.php?time=1754816181&cv=67d8105140229605495cbb88f427e9fe&lr=0&cv2=2be0d86f658bbcb26470eb791065e41b&file=%2Fvideos%2F2521000%2F2521403%2F2521403_720p.mp4&cv3=6f466072b403ded75718b0fb3f2d192f&cv4=9f32ac836888dba9856ebab7a7c020e1",
+                url: "https://watchanimeworld.in/episode/demon-slayer-1x1/",
                 provider: "direct",
               },
             },
