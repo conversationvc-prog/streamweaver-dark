@@ -422,6 +422,132 @@ export const MEDIA: MediaItem[] = [
                 provider: "direct",
               },
             },
+            {
+              id: "s1e13",
+              number: 13,
+              title: "Episode 13: Something More Important Than Life",
+              source: {
+                url: "https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4",
+                provider: "direct",
+              },
+            },
+            {
+              id: "s1e14",
+              number: 14,
+              title: "Episode 14: The House with the Wisteria Family Crest",
+              source: {
+                url: "https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4",
+                provider: "direct",
+              },
+            },
+            {
+              id: "s1e15",
+              number: 15,
+              title: "Episode 15: Mount Natagumo",
+              source: {
+                url: "https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4",
+                provider: "direct",
+              },
+            },
+            {
+              id: "s1e16",
+              number: 16,
+              title: "Episode 16: Letting Someone Else Go First",
+              source: {
+                url: "https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4",
+                provider: "direct",
+              },
+            },
+            {
+              id: "s1e17",
+              number: 17,
+              title: "Episode 17: You Must Master a Single Thing",
+              source: {
+                url: "https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4",
+                provider: "direct",
+              },
+            },
+            {
+              id: "s1e18",
+              number: 18,
+              title: "Episode 18: A Forged Bond",
+              source: {
+                url: "https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4",
+                provider: "direct",
+              },
+            },
+            {
+              id: "s1e19",
+              number: 19,
+              title: "Episode 19: Hinokami",
+              source: {
+                url: "https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4",
+                provider: "direct",
+              },
+            },
+            {
+              id: "s1e20",
+              number: 20,
+              title: "Episode 20: Pretend Family",
+              source: {
+                url: "https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4",
+                provider: "direct",
+              },
+            },
+            {
+              id: "s1e21",
+              number: 21,
+              title: "Episode 21: Against Corps Rules",
+              source: {
+                url: "https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4",
+                provider: "direct",
+              },
+            },
+            {
+              id: "s1e22",
+              number: 22,
+              title: "Episode 22: Master of the Mansion",
+              source: {
+                url: "https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4",
+                provider: "direct",
+              },
+            },
+            {
+              id: "s1e23",
+              number: 23,
+              title: "Episode 23: Hashira Meeting",
+              source: {
+                url: "https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4",
+                provider: "direct",
+              },
+            },
+            {
+              id: "s1e24",
+              number: 24,
+              title: "Episode 24: Rehabilitation Training",
+              source: {
+                url: "https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4",
+                provider: "direct",
+              },
+            },
+            {
+              id: "s1e25",
+              number: 25,
+              title: "Episode 25: Tsuguko, Kanao Tsuyuri",
+              source: {
+                url: "https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4",
+                provider: "direct",
+              },
+            },
+            {
+              id: "s1e26",
+              number: 26,
+              title: "Episode 26: New Mission",
+              source: {
+                url: "https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4",
+                provider: "direct",
+              },
+            },
           ],
       },
     ],
