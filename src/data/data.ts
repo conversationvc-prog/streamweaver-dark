@@ -97,7 +97,7 @@ export const MEDIA: MediaItem[] = [
     description:
       "Ed and Lorraine Warren travel to North London to help a single mother raising four children alone in a house plagued by a supernatural spirit.",
     poster:
-      "https://angelusnews.com/wp-content/uploads/2019/09/7uhunmnx25_Movies___Conjuring_2.jpg",
+      "https://pacdn.aoneroom.com/image/2025/06/13/5f22294605a94f305ec1d5c83ef90d86.jpg?x-oss-process=image/resize%2Cw_250",
     source: {
       // Direct MP4 (fast to demo). You can replace with a YouTube or Archive link.
       url: "https://fmoviesunblocked.net/spa/videoPlayPage/movies/the-conjuring-2-g6X954cAMf9?id=7767358379546525944&type=/movie/detail",
