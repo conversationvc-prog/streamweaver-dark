@@ -105,23 +105,6 @@ export const MEDIA: MediaItem[] = [
     },
     },
   {
-    id: "Classroom of the Elite season 1 to 3 [Hindi] ",
-    type: "movie",
-    title: "Classroom of the Elite season 1 to 3 [Hindi]",
-    year: 2025,
-    rating: 7.7,
-    genres: ["anime", "drama", "Thriller"],
-    description:
-      "When Kiyotaka enters government-sponsored elite high school, he finds out just how merit-based this education system is.",
-    poster:
-      "https://m.media-amazon.com/images/M/MV5BMDg3MGVhNWUtYTQ2NS00ZDdiLTg5MTMtZmM5MjUzN2IxN2I4XkEyXkFqcGc@._V1_.jpg",
-    source: {
-      // Direct MP4 (fast to demo). You can replace with a YouTube or Archive link.
-      url: "https://fmoviesunblocked.net/spa/videoPlayPage/movies/classroom-of-the-elite-hindi-Ms2Kvq9mEpa?id=8740232437575336320&type=/movie/detail",
-      provider: "direct",
-    },
-    },
-  {
     id: "The Conjuring 2",
     type: "movie",
     title: "The Conjuring 2",
@@ -169,6 +152,23 @@ export const MEDIA: MediaItem[] = [
     source: {
       // Direct MP4 (fast to demo). You can replace with a YouTube or Archive link.
       url: "https://fmoviesunblocked.net/spa/videoPlayPage/movies/good-boy-hindi-QiGhpCdpVU2?id=2449209778300666432&type=/movie/detail",
+      provider: "direct",
+    },
+    },
+    {
+    id: "Classroom of the Elite season 1 to 3 [Hindi] ",
+    type: "movie",
+    title: "Classroom of the Elite season 1 to 3 [Hindi]",
+    year: 2025,
+    rating: 7.7,
+    genres: ["anime", "drama", "Thriller"],
+    description:
+      "When Kiyotaka enters government-sponsored elite high school, he finds out just how merit-based this education system is.",
+    poster:
+      "https://m.media-amazon.com/images/M/MV5BMDg3MGVhNWUtYTQ2NS00ZDdiLTg5MTMtZmM5MjUzN2IxN2I4XkEyXkFqcGc@._V1_.jpg",
+    source: {
+      // Direct MP4 (fast to demo). You can replace with a YouTube or Archive link.
+      url: "https://fmoviesunblocked.net/spa/videoPlayPage/movies/classroom-of-the-elite-hindi-Ms2Kvq9mEpa?id=8740232437575336320&type=/movie/detail",
       provider: "direct",
     },
     },
