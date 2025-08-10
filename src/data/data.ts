@@ -295,7 +295,7 @@ export const MEDIA: MediaItem[] = [
     description:
       "Tanjiro Kamado joins the Demon Slayer Corps after his family is attacked and his sister Nezuko becomes a demon.",
     poster:
-      "https://upload.wikimedia.org/wikipedia/en/5/59/Kimetsu_no_Yaiba_Key_Visual.jpg",
+      "https://a.storyblok.com/f/178900/2896x4096/e7ecabafde/25c281a8ed06846d15249d6fa0eeb98c1630394205_main.jpg/m/filters:quality(95)format(webp)",
     seasons: [
       {
         id: "s1",
