@@ -427,7 +427,7 @@ export const MEDIA: MediaItem[] = [
               number: 13,
               title: "Episode 13: Something More Important Than Life",
               source: {
-                url: "https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4",
+                url: "https://st2.febspot.com/remote_control.php?time=1754818660&cv=16ef7289f5b313d83a6a313aa5d9ced4&lr=0&cv2=b5470ecb2998948c16ed4661d5b52f62&file=%2Fvideos%2F2522000%2F2522800%2F2522800_720p.mp4&cv3=6f466072b403ded75718b0fb3f2d192f&cv4=81c6d96f59997bdbd31d1faade202eb0",
                 provider: "direct",
               },
             },
@@ -436,7 +436,7 @@ export const MEDIA: MediaItem[] = [
               number: 14,
               title: "Episode 14: The House with the Wisteria Family Crest",
               source: {
-                url: "https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4",
+                url: "https://st2.febspot.com/remote_control.php?time=1754818767&cv=231a453d67500d3db93ac625186904d4&lr=0&cv2=8b4a7c158d07c0d121da99bac3f05738&file=%2Fvideos%2F2522000%2F2522807%2F2522807_720p.mp4&cv3=6f466072b403ded75718b0fb3f2d192f&cv4=8677d1bb9bc14843fe45c8751ee4c86d",
                 provider: "direct",
               },
             },
@@ -445,7 +445,7 @@ export const MEDIA: MediaItem[] = [
               number: 15,
               title: "Episode 15: Mount Natagumo",
               source: {
-                url: "https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4",
+                url: "https://st2.febspot.com/remote_control.php?time=1754819114&cv=76476d797718d20885c7f6c66851b858&lr=0&cv2=29ea2254cc7d37fc2c734c0104f9b11b&file=%2Fvideos%2F2522000%2F2522818%2F2522818_720p.mp4&cv3=6f466072b403ded75718b0fb3f2d192f&cv4=db54dbeed88b56c9ba1b5d7305644bc5",
                 provider: "direct",
               },
             },
@@ -454,7 +454,7 @@ export const MEDIA: MediaItem[] = [
               number: 16,
               title: "Episode 16: Letting Someone Else Go First",
               source: {
-                url: "https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4",
+                url: "https://st2.febspot.com/remote_control.php?time=1754819295&cv=f6b7add529b2a3cc42dbb4bb52bd7027&lr=0&cv2=0704b30aaf1c14ea85ee617829c276a7&file=%2Fvideos%2F2522000%2F2522825%2F2522825_720p.mp4&cv3=6f466072b403ded75718b0fb3f2d192f&cv4=bdd9655f0c6fe4ee7d9b97ffa7d36edf",
                 provider: "direct",
               },
             },
@@ -463,7 +463,7 @@ export const MEDIA: MediaItem[] = [
               number: 17,
               title: "Episode 17: You Must Master a Single Thing",
               source: {
-                url: "https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4",
+                url: "https://st2.febspot.com/remote_control.php?time=1754819425&cv=5a804923174829ae9049e91ea0df5f72&lr=0&cv2=debedb91e8bb7e8a4df17efe4ad90f93&file=%2Fvideos%2F2522000%2F2522833%2F2522833_720p.mp4&cv3=6f466072b403ded75718b0fb3f2d192f&cv4=d84ff3137c964d5bdb686cff638cf998",
                 provider: "direct",
               },
             },
@@ -472,7 +472,7 @@ export const MEDIA: MediaItem[] = [
               number: 18,
               title: "Episode 18: A Forged Bond",
               source: {
-                url: "https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4",
+                url: "https://st2.febspot.com/remote_control.php?time=1754819477&cv=8680774457ef3faf157b38c766ae65ae&lr=0&cv2=37df6273c088054903d990d29ec608f8&file=%2Fvideos%2F2522000%2F2522836%2F2522836_720p.mp4&cv3=6f466072b403ded75718b0fb3f2d192f&cv4=025cc756d1ac57ce05e5039dc0f3d833",
                 provider: "direct",
               },
             },
@@ -481,7 +481,7 @@ export const MEDIA: MediaItem[] = [
               number: 19,
               title: "Episode 19: Hinokami",
               source: {
-                url: "https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4",
+                url: "https://st2.febspot.com/remote_control.php?time=1754819586&cv=ae36584e721d34661377451b4d9a9cb0&lr=0&cv2=f68116667ff2f18513e16b27ff574881&file=%2Fvideos%2F2522000%2F2522838%2F2522838_720p.mp4&cv3=6f466072b403ded75718b0fb3f2d192f&cv4=242db281b36fc497ab9644cd7b489326",
                 provider: "direct",
               },
             },
@@ -490,7 +490,7 @@ export const MEDIA: MediaItem[] = [
               number: 20,
               title: "Episode 20: Pretend Family",
               source: {
-                url: "https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4",
+                url: "https://st2.febspot.com/remote_control.php?time=1754819785&cv=9ab4998d5b82676b44e89c4329dff67e&lr=0&cv2=92612983c3c5f2ffdc41dbc8502d2cba&file=%2Fvideos%2F2522000%2F2522844%2F2522844_720p.mp4&cv3=6f466072b403ded75718b0fb3f2d192f&cv4=91a40ec12e51d5454cb07f8296dbf7db",
                 provider: "direct",
               },
             },
@@ -499,7 +499,7 @@ export const MEDIA: MediaItem[] = [
               number: 21,
               title: "Episode 21: Against Corps Rules",
               source: {
-                url: "https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4",
+                url: "https://st2.febspot.com/remote_control.php?time=1754819949&cv=7915f85bfbb5c41b3368140cb4bb6f79&lr=0&cv2=caefaf7147b003eb7327791a698a2da9&file=%2Fvideos%2F2522000%2F2522857%2F2522857_720p.mp4&cv3=6f466072b403ded75718b0fb3f2d192f&cv4=5a15ab04534a4312b36bba53e992ba94",
                 provider: "direct",
               },
             },
@@ -508,7 +508,7 @@ export const MEDIA: MediaItem[] = [
               number: 22,
               title: "Episode 22: Master of the Mansion",
               source: {
-                url: "https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4",
+                url: "https://st2.febspot.com/remote_control.php?time=1754820078&cv=d4f25040000519922b5d54db7020f7eb&lr=0&cv2=92ae3f898a97337c3b923dbd4f2892b3&file=%2Fvideos%2F2522000%2F2522866%2F2522866_720p.mp4&cv3=6f466072b403ded75718b0fb3f2d192f&cv4=9dfd9845f33db8f3f368707e345c03f9",
                 provider: "direct",
               },
             },
@@ -517,7 +517,7 @@ export const MEDIA: MediaItem[] = [
               number: 23,
               title: "Episode 23: Hashira Meeting",
               source: {
-                url: "https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4",
+                url: "https://st2.febspot.com/remote_control.php?time=1754820165&cv=2879fc669e73801c470c1bd71cdd53ee&lr=0&cv2=a69fa738ce19823ed50ed23ed5614e13&file=%2Fvideos%2F2522000%2F2522870%2F2522870_720p.mp4&cv3=6f466072b403ded75718b0fb3f2d192f&cv4=56c0033b69c9d2e7c4cf760282ec0938",
                 provider: "direct",
               },
             },
@@ -526,7 +526,7 @@ export const MEDIA: MediaItem[] = [
               number: 24,
               title: "Episode 24: Rehabilitation Training",
               source: {
-                url: "https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4",
+                url: "https://st2.febspot.com/remote_control.php?time=1754820249&cv=c057467006c66f0721c89cdd09301565&lr=0&cv2=4135f3a7419a71de0693985957c470e4&file=%2Fvideos%2F2522000%2F2522876%2F2522876_720p.mp4&cv3=6f466072b403ded75718b0fb3f2d192f&cv4=dda92b4081f7e97c835caacfd05d1728",
                 provider: "direct",
               },
             },
@@ -535,7 +535,7 @@ export const MEDIA: MediaItem[] = [
               number: 25,
               title: "Episode 25: Tsuguko, Kanao Tsuyuri",
               source: {
-                url: "https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4",
+                url: "https://st2.febspot.com/remote_control.php?time=1754820343&cv=90e8eb1cb169bca30f27b29473b4a6c7&lr=0&cv2=ad7df3aa5fb7f5f5399271feefbf6532&file=%2Fvideos%2F2522000%2F2522883%2F2522883_720p.mp4&cv3=6f466072b403ded75718b0fb3f2d192f&cv4=13ecbfc67d5775f75f83646f94dec731",
                 provider: "direct",
               },
             },
@@ -544,7 +544,7 @@ export const MEDIA: MediaItem[] = [
               number: 26,
               title: "Episode 26: New Mission",
               source: {
-                url: "https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4",
+                url: "https://st2.febspot.com/remote_control.php?time=1754820747&cv=e86aed780f48c16fa3b5909d1d94d112&lr=0&cv2=fd4ef2f0f2c748947a6ce4c1a8a801f1&file=%2Fvideos%2F2522000%2F2522887%2F2522887_720p.mp4&cv3=6f466072b403ded75718b0fb3f2d192f&cv4=78efee7b2ac8b3384a788ba7c4904018",
                 provider: "direct",
               },
             },
