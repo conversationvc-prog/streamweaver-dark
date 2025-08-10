@@ -121,6 +121,23 @@ export const MEDIA: MediaItem[] = [
       provider: "direct",
     },
     },
+   {
+    id: "The Fantastic Four: First Steps",
+    type: "movie",
+    title: "The Fantastic Four: First Steps",
+    year: 2025,
+    rating: 7.3,
+    genres: ["action", "advanture", "Sci-Fi"],
+    description:
+      "Forced to balance their roles as heroes with the strength of their family bond, the Fantastic Four must defend Earth from a ravenous space god called Galactus and his enigmatic Herald, Silver Surfer.",
+    poster:
+      "https://lumiere-a.akamaihd.net/v1/images/p_movies_thefantasticfourfirststeps_hero1shot_poster_v1_4b798b70.jpeg?region=0%2C0%2C540%2C810",
+    source: {
+      // Direct MP4 (fast to demo). You can replace with a YouTube or Archive link.
+      url: "https://fmoviesunblocked.net/spa/videoPlayPage/movies/the-fantastic-four-first-steps-AQl6LSd1vC5?id=4717678971557691344&type=/movie/detail",
+      provider: "direct",
+    },
+   },
   {
     id: "Good Boy season 1 [Hindi]",
     type: "movie",
