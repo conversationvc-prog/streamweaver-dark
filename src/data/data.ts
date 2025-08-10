@@ -71,6 +71,23 @@ export type MediaItem = {
 
 export const MEDIA: MediaItem[] = [
   {
+    id: "Demon Slayer -Kimetsu no Yaiba- The Movie: Infinity Castle[CAM]",
+    type: "movie",
+    title: "Demon Slayer -Kimetsu no Yaiba- The Movie: Infinity Castle[CAM]",
+    year: 2025,
+    rating: 9.0,
+    genres: ["Advanture", "Action", "Anime"],
+    description:
+      "The Demon Slayer Corps are drawn into the Infinity Castle, where Tanjiro, Nezuko, and the Hashira face terrifying Upper Rank demons in a desperate fight as the final battle against Muzan Kibutsuji begins.",
+    poster:
+      "https://assetscdn1.paytm.com/images/cinema/poster%20(2)-bc745210-572d-11f0-8c69-e1cfd333c047.jpg?format=webp&imwidth=256",
+    source: {
+      // Direct MP4 (fast to demo). You can replace with a YouTube or Archive link.
+      url: "https://fmoviesunblocked.net/spa/videoPlayPage/movies/demon-slayer-kimetsu-no-yaiba-the-movie-infinity-castle-cam-MallNh9VXH4?id=3952375510730261496&type=/movie/detail",
+      provider: "direct",
+    },
+    },
+  {
     id: "Transformers: Revenge of the Fallen",
     type: "movie",
     title: "Transformers: Revenge of the Fallen",
