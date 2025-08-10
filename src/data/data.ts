@@ -105,6 +105,23 @@ export const MEDIA: MediaItem[] = [
     },
     },
   {
+    id: "Good Boy season 1 [Hindi]",
+    type: "movie",
+    title: "Good Boy season 1 [Hindi]",
+    year: 2015,
+    rating: 7.6,
+    genres: ["action", "comdey", "romance"],
+    description:
+      "Olympic medalists join the police force through a special recruitment program, trading medals for badges as they tackle violent crimes and injustices with their athletic skills.",
+    poster:
+      "https://m.media-amazon.com/images/M/MV5BNjIyMTZkYTItMDMzYy00OTgwLWE1Y2MtNDdlZGZmOTZkMGMzXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+    source: {
+      // Direct MP4 (fast to demo). You can replace with a YouTube or Archive link.
+      url: "https://fmoviesunblocked.net/spa/videoPlayPage/movies/good-boy-hindi-QiGhpCdpVU2?id=2449209778300666432&type=/movie/detail",
+      provider: "direct",
+    },
+    },
+  {
     id: "The Conjuring",
     type: "movie",
     title: "The Conjuring",
