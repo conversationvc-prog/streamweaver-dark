@@ -308,8 +308,8 @@ export const MEDIA: MediaItem[] = [
             title: "Episode 1: Cruelty",
             source: {
               // Demo source; replace with your preferred link
-              url: "https://www.youtube.com/watch?v=VQGCKyvzIM4",
-              provider: "youtube",
+              url: "https://st2.febspot.com/remote_control.php?time=1754816181&cv=67d8105140229605495cbb88f427e9fe&lr=0&cv2=2be0d86f658bbcb26470eb791065e41b&file=%2Fvideos%2F2521000%2F2521403%2F2521403_720p.mp4&cv3=6f466072b403ded75718b0fb3f2d192f&cv4=9f32ac836888dba9856ebab7a7c020e1",
+              provider: "direct",
             },
           },
           {
@@ -318,8 +318,8 @@ export const MEDIA: MediaItem[] = [
             title: "Episode 2: Trainer Sakonji Urokodaki",
             source: {
               // Demo source; replace with your preferred link
-              url: "https://www.youtube.com/watch?v=fz0ILwyQXbc",
-              provider: "youtube",
+              url: "https://st25.febspot.com/remote_control.php?time=1754816274&cv=120aaec79174baf938fe1fa9b1961997&lr=0&cv2=9e51a571abb06ff3b84d4a231d37fcdd&file=%2Fvideos%2F2859000%2F2859602%2F2859602_720p.mp4&cv3=6f466072b403ded75718b0fb3f2d192f&cv4=ccc4e3032a2b4c1f60a2e83f2bffafff",
+              provider: "direct",
             },
           },
           {
@@ -328,10 +328,99 @@ export const MEDIA: MediaItem[] = [
             title: "Episode 3: Sabito and Makomo",
             source: {
               // Demo source; replace with your preferred link
-              url: "https://www.youtube.com/watch?v=4s4XcLw8q1I",
-              provider: "youtube",
+              url: "https://st2.febspot.com/remote_control.php?time=1754816334&cv=9738be8e7b5bcd18cfe959577dddf89b&lr=0&cv2=719f7b91c6d09f2c48e7b7b53585519b&file=%2Fvideos%2F2522000%2F2522592%2F2522592_720p.mp4&cv3=6f466072b403ded75718b0fb3f2d192f&cv4=cce09ebb159c91351cf7d3cc8b9be75e",
+              provider: "direct",
             },
           },
+          {
+            id: "s1e4",
+            number: 4,
+            title: "Episode 4: Final Selection",
+            source: {
+              // Demo source; replace with your preferred link
+              url: "https://st2.febspot.com/remote_control.php?time=1754816679&cv=02de8a1fc1910887a22aaba66c9f6b9a&lr=0&cv2=d566999336366c4f8c30a63f85c330c6&file=%2Fvideos%2F2522000%2F2522597%2F2522597_720p.mp4&cv3=6f466072b403ded75718b0fb3f2d192f&cv4=7576e649da84a4a1f6732ede24a696f1",
+              provider: "direct",
+            },
+          },
+          {
+            id: "s1e5",
+            number: 5,
+            title: "Episode 5: My Own Steel",
+            source: {
+              // Demo source; replace with your preferred link
+              url: "https://st2.febspot.com/remote_control.php?time=1754816805&cv=f18f00c3dae5d0819f177307953ea705&lr=0&cv2=6e9cbf0a018910e1e3107dee1596a50a&file=%2Fvideos%2F2522000%2F2522601%2F2522601_720p.mp4&cv3=6f466072b403ded75718b0fb3f2d192f&cv4=388e4afb8df57851f69fe93d87bb4343",
+              provider: "direct",
+            },
+          },
+          {
+            id: "s1e6",
+            number: 6,
+            title: "Episode 6: Swordsman Accompanying a Demon",
+            source: {
+              // Demo source; replace with your preferred link
+              url: "https://st2.febspot.com/remote_control.php?time=1754816901&cv=a0fd1d706c983449ea91fe5e5c58ae85&lr=0&cv2=c8bf0ce7009187e213b2ca20ea1f6a51&file=%2Fvideos%2F2522000%2F2522606%2F2522606_720p.mp4&cv3=6f466072b403ded75718b0fb3f2d192f&cv4=4793d659dbe3b9e9d6852784ab905127",
+              provider: "direct",
+            },
+          },
+          {
+            id: "s1e7",
+            number: 7,
+            title: "Episode 7: Muzan Kibutsuji",
+            source: {
+              // Demo source; replace with your preferred link
+              url: "https://st2.febspot.com/remote_control.php?time=1754816988&cv=62b6fc3e8feb99388d5c5f918771aad4&lr=0&cv2=98418ff98b859101c94e60e156a3faa8&file=%2Fvideos%2F2522000%2F2522618%2F2522618_720p.mp4&cv3=6f466072b403ded75718b0fb3f2d192f&cv4=49c1e5f2562a57487d912335dbbc7c88",
+              provider: "direct",
+            },
+             {
+            id: "s1e8",
+            number: 8,
+            title: "Episode 8: The Smell of Enchanting Blood",
+            source: {
+              // Demo source; replace with your preferred link
+              url: "https://st2.febspot.com/remote_control.php?time=1754817147&cv=bb8b2d597b7dffea62101bcebb55ba87&lr=0&cv2=f136030df5fc750f1deaabe177dd754b&file=%2Fvideos%2F2522000%2F2522621%2F2522621_720p.mp4&cv3=6f466072b403ded75718b0fb3f2d192f&cv4=e0ac8b491685ddbd27f507a991500b28",
+              provider: "direct",
+            },
+          },
+          {
+            id: "s1e9",
+            number: 9,
+            title: "Episode 9: Temari Demon and Arrow Demon",
+            source: {
+              // Demo source; replace with your preferred link
+              url: "https://st2.febspot.com/remote_control.php?time=1754817244&cv=89eed5a34cd33fb815ba5d0f80a94103&lr=0&cv2=246a4fb756125114f052122816a61a02&file=%2Fvideos%2F2522000%2F2522625%2F2522625_720p.mp4&cv3=6f466072b403ded75718b0fb3f2d192f&cv4=6cbac736682807f9ee34b15f4eea5a8c",
+              provider: "direct",
+            },
+          },
+           {
+            id: "s1e10",
+            number: 10,
+            title: "Episode 10: Together Forever",
+            source: {
+              // Demo source; replace with your preferred link
+              url: "https://st2.febspot.com/remote_control.php?time=1754817349&cv=103725b0d93b370e2cca77c7e107effd&lr=0&cv2=f408079a68674266e39a47d961e6bec3&file=%2Fvideos%2F2522000%2F2522628%2F2522628_720p.mp4&cv3=6f466072b403ded75718b0fb3f2d192f&cv4=7fad9228a1da12c576a0b31b6b6275f6",
+              provider: "direct",
+            },
+          },
+           {
+            id: "s1e11",
+            number: 11,
+            title: "Episode 11: Tsuzumi Mansion",
+            source: {
+              // Demo source; replace with your preferred link
+              url: "https://st2.febspot.com/remote_control.php?time=1754817454&cv=74572f4dfe6e496b3d83689f055912bd&lr=0&cv2=f4af888a73fac1c58ed9478d8977014b&file=%2Fvideos%2F2522000%2F2522629%2F2522629_720p.mp4&cv3=6f466072b403ded75718b0fb3f2d192f&cv4=d400c31eec612197f5f6f3485e88423a",
+              provider: "direct",
+            },
+          },
+           {
+            id: "s1e12",
+            number: 12,
+            title: "Episode 12: The Boar Bares Its Fangs, Zenitsu Sleeps",
+            source: {
+              // Demo source; replace with your preferred link
+              url: "https://st2.febspot.com/remote_control.php?time=1754817547&cv=bbb2c46fb5c372478668cc3a6550e447&lr=0&cv2=46fea493e808bc2898089a64d7bcefc9&file=%2Fvideos%2F2522000%2F2522795%2F2522795_720p.mp4&cv3=6f466072b403ded75718b0fb3f2d192f&cv4=0b7fa48f5f502c092458fccaf65955e7",
+              provider: "direct",
+            },
+           },
         ],
       },
     ],
