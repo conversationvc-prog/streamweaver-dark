@@ -286,64 +286,50 @@ export const MEDIA: MediaItem[] = [
     },
   },
   {
-    id: "Wednesday S2",
+    id: "demon-slayer-s1",
     type: "series",
-    title: "Open Movie Shorts",
-    year: 2025,
-    rating: 7.4,
-    genres: ["Animation", "Short"],
+    title: "Demon Slayer: Kimetsu no Yaiba - Season 1",
+    year: 2019,
+    rating: 8.7,
+    genres: ["Anime", "Action", "Adventure"],
     description:
-      "A mini anthology of open movies used for demo. Select a season and episode to play.",
+      "Tanjiro Kamado joins the Demon Slayer Corps after his family is attacked and his sister Nezuko becomes a demon.",
     poster:
-      "https://upload.wikimedia.org/wikipedia/commons/6/6d/Tears_of_Steel_-_movie_poster.jpg",
+      "https://upload.wikimedia.org/wikipedia/en/5/59/Kimetsu_no_Yaiba_Key_Visual.jpg",
     seasons: [
       {
-        id: "All Episords of S2",
+        id: "s1",
         number: 1,
-        title: "Volume 1",
+        title: "Season 1",
         episodes: [
           {
-            id: "e1",
+            id: "s1e1",
             number: 1,
-            title: "Big Buck Bunny",
+            title: "Episode 1: Cruelty",
             source: {
-              url: "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4",
-              provider: "direct",
-            },
-          },
-          {
-            id: "e2",
-            number: 2,
-            title: "Sintel",
-            source: {
-              url: "https://www.youtube.com/watch?v=eRsGyueVLvQ",
+              // Demo source; replace with your preferred link
+              url: "https://www.youtube.com/watch?v=VQGCKyvzIM4",
               provider: "youtube",
             },
           },
           {
-            id: "e3",
-            number: 3,
-            title: "Tears of Steel (Archive)",
+            id: "s1e2",
+            number: 2,
+            title: "Episode 2: Trainer Sakonji Urokodaki",
             source: {
-              // Internet Archive embed works via iframe
-              url: "https://archive.org/embed/Tears-of-Steel-2012",
-              provider: "archive",
+              // Demo source; replace with your preferred link
+              url: "https://www.youtube.com/watch?v=fz0ILwyQXbc",
+              provider: "youtube",
             },
           },
-        ],
-      },
-      {
-        id: "s2",
-        number: 2,
-        title: "Volume 2",
-        episodes: [
           {
-            id: "e1",
-            number: 1,
-            title: "Elephants Dream",
+            id: "s1e3",
+            number: 3,
+            title: "Episode 3: Sabito and Makomo",
             source: {
-              url: "https://archive.org/embed/ElephantsDream",
-              provider: "archive",
+              // Demo source; replace with your preferred link
+              url: "https://www.youtube.com/watch?v=4s4XcLw8q1I",
+              provider: "youtube",
             },
           },
         ],
