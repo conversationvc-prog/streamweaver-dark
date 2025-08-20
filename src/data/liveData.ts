@@ -116,6 +116,7 @@ export const LIVE_CHANNELS: LiveChannel[] = [
     description: "Extreme sports and adventure content",
     isLive: true,
   },
+  // Pakistan Channels
   {
     id: "Ary news",
     name: "Ary News HD",
