@@ -83,7 +83,7 @@ export const MEDIA: MediaItem[] = [
       "https://assetscdn1.paytm.com/images/cinema/poster%20(2)-bc745210-572d-11f0-8c69-e1cfd333c047.jpg?format=webp&imwidth=256",
     source: {
       // Direct MP4 (fast to demo). You can replace with a YouTube or Archive link.
-      url: "https://fmoviesunblocked.net/spa/videoPlayPage/movies/demon-slayer-kimetsu-no-yaiba-the-movie-infinity-castle-cam-MallNh9VXH4?id=3952375510730261496&type=/movie/detail",
+      url: "blob:https://youfiles.herokuapp.com/c0b7abd3-935b-4116-93c3-d2aa78a79fad",
       provider: "direct",
     },
     },
