@@ -116,6 +116,17 @@ export const LIVE_CHANNELS: LiveChannel[] = [
     description: "Extreme sports and adventure content",
     isLive: true,
   },
+  {
+    id: "Ary news",
+    name: "Ary News HD",
+    category: "News",
+    country: "PK",
+    language: "URDU",
+    logo: "https://upload.wikimedia.org/wikipedia/commons/2/2c/Arynews.jpg",
+    url: "https://tamashaweb.com/ary-news",
+    description: "A bilingual news channel in English and Urdu",
+    isLive: true,
+  },
 ];
 
 export const COUNTRIES = [
@@ -129,6 +140,7 @@ export const COUNTRIES = [
   { code: "IN", name: "India", flag: "🇮🇳" },
   { code: "BR", name: "Brazil", flag: "🇧🇷" },
   { code: "IT", name: "Italy", flag: "🇮🇹" },
+  { code: "PK", name: "Pakistan", flag: "🇵🇰" },
 ];
 
 // Mock news data - in a real app, this would come from an API
