@@ -1,71 +1,101 @@
-import { useMemo, useState } from "react";
-import Fuse from "fuse.js";
-import { MEDIA, MediaItem } from "@/data/data";
 import { Helmet } from "react-helmet-async";
-import { SearchBar } from "@/components/SearchBar";
-import { MediaCard } from "@/components/MediaCard";
-import { Button } from "@/components/ui/button";
+import { Link } from "react-router-dom";
+import { Tv, Play, Clapperboard, Radio, Grid, Settings, TvIcon } from "lucide-react";
 
 const Index = () => {
-  const [query, setQuery] = useState("");
-  const [typeFilter, setTypeFilter] = useState<"all" | "movie" | "series">("all");
-  const [genreFilter, setGenreFilter] = useState<string | "all">("all");
-
-  const fuse = useMemo(() => new Fuse(MEDIA, {
-    keys: ["title", "description", "genres", "cast"],
-    threshold: 0.35,
-  }), []);
-
-  const results: MediaItem[] = useMemo(() => {
-    const base = query ? fuse.search(query).map(r => r.item) : MEDIA;
-    return base.filter((m) =>
-      (typeFilter === "all" || m.type === typeFilter) &&
-      (genreFilter === "all" || m.genres.includes(genreFilter))
-    );
-  }, [query, typeFilter, genreFilter, fuse]);
-
   return (
     <>
       <Helmet>
-        <title>Stream – Watch Movies & Series Online</title>
-        <meta name="description" content="Watch movies and series in a sleek, modern dark UI. Paste video URLs in data.ts to stream from YouTube, Internet Archive, or direct links." />
+        <title>Crunchy Watch – Stream Movies, Series & Live TV</title>
+        <meta name="description" content="Watch movies, series, and live TV in a modern streaming platform. Access live sports, news, and entertainment from around the world." />
         <link rel="canonical" href={window.location.origin + "/"} />
       </Helmet>
 
-      
-
-      <main className="container space-y-12 py-8">
-        <section className="grid gap-6 md:grid-cols-[1.6fr,1fr]">
-          <div className="rounded-3xl border bg-gradient-to-br from-primary/30 to-primary/5 p-6 md:p-10 animate-fade-in">
-            <div className="max-w-xl space-y-4">
-              <div className="inline-flex items-center rounded-full border px-3 py-1 text-xs text-muted-foreground">Now Streaming</div>
-              <h1 className="text-3xl font-extrabold tracking-tight md:text-5xl">Watch movies & series in a sleek, modern dark UI</h1>
-              <p className="text-muted-foreground">Paste any valid video URL in data.ts (YouTube, Internet Archive, or direct MP4) and it will play instantly.</p>
-              <Button asChild size="lg"><a href="#trending">Browse Catalog</a></Button>
-            </div>
+      <main className="min-h-screen bg-gradient-to-br from-background via-background to-muted/20 p-4 md:p-8">
+        <div className="mx-auto max-w-6xl">
+          {/* Header Info */}
+          <div className="mb-8 text-right">
+            <p className="text-muted-foreground text-sm">
+              Logged in: guest
+            </p>
           </div>
-          <SearchBar
-            query={query}
-            onQueryChange={setQuery}
-            typeFilter={typeFilter}
-            onTypeFilterChange={setTypeFilter}
-            genreFilter={genreFilter}
-            onGenreFilterChange={setGenreFilter}
-            onSubmit={() => {}}
-          />
-        </section>
 
-        <section id="trending" className="space-y-4">
-          <h2 className="text-xl font-semibold">Trending</h2>
-          <div className="grid grid-cols-2 gap-4 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5">
-            {results.map((m) => (
-              <MediaCard key={m.id} item={m} />
-            ))}
+          {/* Main Grid */}
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+            {/* Live TV - Large Card */}
+            <Link 
+              to="/live-tv" 
+              className="md:row-span-2 group relative overflow-hidden rounded-3xl bg-gradient-to-br from-cyan-500 via-blue-500 to-teal-600 p-8 transition-transform duration-300 hover:scale-[1.02] shadow-xl"
+            >
+              <div className="relative z-10 flex h-full flex-col justify-center text-center text-white">
+                <TvIcon className="mx-auto mb-6 h-16 w-16 opacity-90" />
+                <h2 className="text-3xl font-bold mb-2">LIVE TV</h2>
+                <p className="text-blue-100 opacity-90">Watch live channels</p>
+              </div>
+              <div className="absolute inset-0 bg-black/10 group-hover:bg-black/5 transition-colors" />
+            </Link>
+
+            {/* Movies */}
+            <Link 
+              to="/movies" 
+              className="group relative overflow-hidden rounded-3xl bg-gradient-to-br from-red-500 via-orange-500 to-yellow-500 p-8 transition-transform duration-300 hover:scale-[1.02] shadow-xl"
+            >
+              <div className="relative z-10 flex h-full flex-col justify-center text-center text-white">
+                <Play className="mx-auto mb-4 h-12 w-12 opacity-90" />
+                <h2 className="text-2xl font-bold">MOVIES</h2>
+              </div>
+              <div className="absolute inset-0 bg-black/10 group-hover:bg-black/5 transition-colors" />
+            </Link>
+
+            {/* Series */}
+            <Link 
+              to="/series" 
+              className="group relative overflow-hidden rounded-3xl bg-gradient-to-br from-purple-500 via-blue-500 to-indigo-600 p-8 transition-transform duration-300 hover:scale-[1.02] shadow-xl"
+            >
+              <div className="relative z-10 flex h-full flex-col justify-center text-center text-white">
+                <Clapperboard className="mx-auto mb-4 h-12 w-12 opacity-90" />
+                <h2 className="text-2xl font-bold">SERIES</h2>
+              </div>
+              <div className="absolute inset-0 bg-black/10 group-hover:bg-black/5 transition-colors" />
+            </Link>
+
+            {/* Live with EPG */}
+            <Link 
+              to="/live-epg" 
+              className="group relative overflow-hidden rounded-2xl bg-gradient-to-br from-green-500 to-emerald-600 p-6 transition-transform duration-300 hover:scale-[1.02] shadow-lg"
+            >
+              <div className="relative z-10 flex items-center gap-3 text-white">
+                <Radio className="h-8 w-8 opacity-90" />
+                <span className="font-semibold">LIVE WITH EPG</span>
+              </div>
+              <div className="absolute inset-0 bg-black/10 group-hover:bg-black/5 transition-colors" />
+            </Link>
+
+            {/* Multi-Screen */}
+            <Link 
+              to="/multi-screen" 
+              className="group relative overflow-hidden rounded-2xl bg-gradient-to-br from-teal-500 to-green-600 p-6 transition-transform duration-300 hover:scale-[1.02] shadow-lg"
+            >
+              <div className="relative z-10 flex items-center gap-3 text-white">
+                <Grid className="h-8 w-8 opacity-90" />
+                <span className="font-semibold">MULTI-SCREEN</span>
+              </div>
+              <div className="absolute inset-0 bg-black/10 group-hover:bg-black/5 transition-colors" />
+            </Link>
+
+            {/* Settings */}
+            <Link 
+              to="/settings" 
+              className="group relative overflow-hidden rounded-2xl bg-gradient-to-br from-slate-500 to-gray-600 p-6 transition-transform duration-300 hover:scale-[1.02] shadow-lg"
+            >
+              <div className="relative z-10 flex items-center gap-3 text-white">
+                <Settings className="h-8 w-8 opacity-90" />
+                <span className="font-semibold">SETTINGS</span>
+              </div>
+              <div className="absolute inset-0 bg-black/10 group-hover:bg-black/5 transition-colors" />
+            </Link>
           </div>
-          {results.length === 0 && (
-            <p className="text-muted-foreground">No results. Try another query or filters.</p>
-          )}
-        </section>
+        </div>
       </main>
     </>
   );
