@@ -120,7 +120,7 @@ export const LIVE_CHANNELS: LiveChannel[] = [
   {
     id: "Ary news",
     name: "Ary News HD",
-    category: "News",
+    category: "news",
     country: "PK",
     language: "URDU",
     logo: "https://upload.wikimedia.org/wikipedia/commons/2/2c/Arynews.jpg",
