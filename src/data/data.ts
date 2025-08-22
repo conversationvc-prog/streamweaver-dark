@@ -83,7 +83,7 @@ export const MEDIA: MediaItem[] = [
       "https://assetscdn1.paytm.com/images/cinema/poster%20(2)-bc745210-572d-11f0-8c69-e1cfd333c047.jpg?format=webp&imwidth=256",
     source: {
       // Direct MP4 (fast to demo). You can replace with a YouTube or Archive link.
-      url: "https://drive.google.com/file/d/1Tz-OPyFPX0iJtkF2OKtB9SllVL_MjPnS/view",
+      url: "https://drive.google.com/file/d/1Tz-OPyFPX0iJtkF2OKtB9SllVL_MjPnS/view?usp=sharing",
       provider: "direct",
     },
     },
