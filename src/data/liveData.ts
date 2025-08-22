@@ -124,7 +124,7 @@ export const LIVE_CHANNELS: LiveChannel[] = [
     country: "PK",
     language: "URDU",
     logo: "https://upload.wikimedia.org/wikipedia/commons/2/2c/Arynews.jpg",
-    url: "https://tamashaweb.com/ary-news",
+    url: "https://live.arynews.tv/",
     description: "A bilingual news channel in English and Urdu",
     isLive: true,
   },
