@@ -7,6 +7,7 @@ import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { Play, Globe, Clock, Users } from "lucide-react";
+import { VideoPlayer } from "@/components/VideoPlayer";
 
 const LiveTV = () => {
   const [selectedCountry, setSelectedCountry] = useState<string>("US");
@@ -86,13 +87,7 @@ const LiveTV = () => {
                   <CardDescription>{selectedChannel.description}</CardDescription>
                 </CardHeader>
                 <CardContent>
-                  <div className="aspect-video bg-black rounded-lg flex items-center justify-center">
-                    <div className="text-center text-white">
-                      <Play className="h-16 w-16 mx-auto mb-4 opacity-50" />
-                      <p className="text-lg">Live Stream</p>
-                      <p className="text-sm opacity-75">{selectedChannel.name}</p>
-                    </div>
-                  </div>
+                  <VideoPlayer url={selectedChannel.url} />
                 </CardContent>
               </Card>
             )}
