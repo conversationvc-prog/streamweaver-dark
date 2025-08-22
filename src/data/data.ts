@@ -185,7 +185,7 @@ export const MEDIA: MediaItem[] = [
       "https://images.moviesanywhere.com/64428a3af2258a8186ca97896f1fb060/de21bfe7-e298-4210-bdef-bfac8b2c53d0.jpg",
     source: {
       // Direct MP4 (fast to demo). You can replace with a YouTube or Archive link.
-      url: "https://www.febspot.com/get_file/11/a21ff76b8e002768da957799b5eef4e2/762000/762008/762008_720p.mp4",
+      url: "https://st8.febspot.com/remote_control.php?file=B64YTo0OntzOjQ6InRpbWUiO2k6MTc1NTg0NjQ0MjtzOjU6ImxpbWl0IjtpOjA7czo0OiJmaWxlIjtzOjM3OiIvdmlkZW9zLzc2MjAwMC83NjIwMDgvNzYyMDA4XzcyMHAubXA0IjtzOjI6ImN2IjtzOjMyOiIzMjI3ZTJjNWYzZDU5NmM3YzgzMTUxY2IxMjk4YWVlOSI7fQ%3D%3D",
       provider: "direct",
     },
     },
