@@ -8,7 +8,8 @@ import NotFound from "./pages/NotFound";
 import Watch from "./pages/Watch";
 import LiveTV from "./pages/LiveTV";
 import Movies from "./pages/Movies";
-import Series from "./pages/Series";
+import Series from "./pages/Series";  
+import Plans from "./pages/Plans";
 import Navbar from "@/components/layout/Navbar";
 import { HelmetProvider } from "react-helmet-async";
 
@@ -27,6 +28,7 @@ const App = () => (
             <Route path="/live-tv" element={<LiveTV />} />
             <Route path="/movies" element={<Movies />} />
             <Route path="/series" element={<Series />} />
+            <Route path="/plans" element={<Plans />} />
             <Route path="/watch/:id" element={<Watch />} />
             {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
             <Route path="*" element={<NotFound />} />

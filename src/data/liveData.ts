@@ -203,3 +203,90 @@ export const getChannelsByCategory = (category: LiveChannel['category']) => {
 export const getNewsByCountry = (country: string) => {
   return MOCK_NEWS.filter(news => news.country === country || news.country === "International");
 };
+
+// Ad banners system
+export interface AdBanner {
+  id: string;
+  title: string;
+  image: string;
+  url: string;
+  duration: number; // seconds
+  type: "banner" | "video" | "popup";
+  placement: "top" | "bottom" | "sidebar" | "modal";
+  targeting: {
+    plans: ("free" | "premium")[];
+    countries?: string[];
+    categories?: string[];
+  };
+}
+
+export const AD_BANNERS: AdBanner[] = [
+  {
+    id: "banner-1",
+    title: "Premium Gaming Setup",
+    image: "https://images.unsplash.com/photo-1542751371-adc38448a05e?w=800&h=200&fit=crop",
+    url: "#gaming-gear",
+    duration: 5,
+    type: "banner",
+    placement: "top",
+    targeting: {
+      plans: ["free"],
+      categories: ["entertainment", "sports"]
+    }
+  },
+  {
+    id: "banner-2", 
+    title: "Travel Deals 2024",
+    image: "https://images.unsplash.com/photo-1488646953014-85cb44e25828?w=800&h=200&fit=crop",
+    url: "#travel-deals",
+    duration: 5,
+    type: "banner",
+    placement: "bottom",
+    targeting: {
+      plans: ["free"],
+      countries: ["US", "UK", "CA"]
+    }
+  },
+  {
+    id: "banner-3",
+    title: "Smart Home Solutions",  
+    image: "https://images.unsplash.com/photo-1558618047-3c8c76ca7d13?w=800&h=200&fit=crop",
+    url: "#smart-home",
+    duration: 8,
+    type: "banner",
+    placement: "sidebar",
+    targeting: {
+      plans: ["free"]
+    }
+  },
+  {
+    id: "video-ad-1",
+    title: "Car Insurance Savings",
+    image: "https://images.unsplash.com/photo-1449824913935-59a10b8d2000?w=800&h=400&fit=crop",
+    url: "#car-insurance", 
+    duration: 15,
+    type: "video",
+    placement: "modal",
+    targeting: {
+      plans: ["free"],
+      categories: ["news"]
+    }
+  }
+];
+
+export const getAdsForUser = (userPlan: "free" | "premium", country?: string, category?: string) => {
+  if (userPlan === "premium") return []; // No ads for premium users
+  
+  return AD_BANNERS.filter(ad => {
+    // Check plan targeting
+    if (!ad.targeting.plans.includes(userPlan)) return false;
+    
+    // Check country targeting if specified
+    if (ad.targeting.countries && country && !ad.targeting.countries.includes(country)) return false;
+    
+    // Check category targeting if specified  
+    if (ad.targeting.categories && category && !ad.targeting.categories.includes(category)) return false;
+    
+    return true;
+  });
+};
