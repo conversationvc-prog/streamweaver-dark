@@ -185,7 +185,7 @@ export const MEDIA: MediaItem[] = [
       "https://images.moviesanywhere.com/64428a3af2258a8186ca97896f1fb060/de21bfe7-e298-4210-bdef-bfac8b2c53d0.jpg",
     source: {
       // Direct MP4 (fast to demo). You can replace with a YouTube or Archive link.
-      url: "https://fmoviesunblocked.net/spa/videoPlayPage/movies/the-conjuring-giJNmW5iRi7?id=6130398871043850488&type=/movie/detail",
+      url: "https://www.febspot.com/video/762008",
       provider: "direct",
     },
     },
