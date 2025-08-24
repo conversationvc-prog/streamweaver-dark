@@ -342,7 +342,7 @@ export const MEDIA: MediaItem[] = [
               title: "Episode 1: Cruelty",
               source: {
                 // Demo source; replace with your preferred link
-                url: "",
+                url: "https://play.zephyrflick.top/video/b51a15f382ac914391a58850ab343b00",
                 provider: "direct",
               },
             },
