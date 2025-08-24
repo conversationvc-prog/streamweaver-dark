@@ -352,7 +352,7 @@ export const MEDIA: MediaItem[] = [
               title: "Episode 2: Trainer Sakonji Urokodaki",
               source: {
                 // Demo source; replace with your preferred link
-                url: "https://st25.febspot.com/remote_control.php?time=1754816274&cv=120aaec79174baf938fe1fa9b1961997&lr=0&cv2=9e51a571abb06ff3b84d4a231d37fcdd&file=%2Fvideos%2F2859000%2F2859602%2F2859602_720p.mp4&cv3=6f466072b403ded75718b0fb3f2d192f&cv4=ccc4e3032a2b4c1f60a2e83f2bffafff",
+                url: "https://play.zephyrflick.top/video/193002e668758ea9762904da1a22337c",
                 provider: "direct",
               },
             },
