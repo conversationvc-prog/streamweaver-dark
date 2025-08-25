@@ -105,6 +105,23 @@ export const MEDIA: MediaItem[] = [
     },
     },
   {
+    id: "Baki Hanma VS Kengan Ashura",
+    type: "movie",
+    title: "Baki Hanma VS Kengan Ashur",
+    year: 2024,
+    rating: 5.7,
+    genres: ["Action"],
+     description:
+      "It's the ultimate showdown. The toughest fighters from "Baki Hanma" and "Kengan Ashura" clash in this unprecedented, hard-hitting martial arts crossover.",
+    poster:
+      "https://m.media-amazon.com/images/M/MV5BOTNkMTU1OWQtNTE5Yi00OTViLTlhOTMtZmYxZWJiMTU2MTAwXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+    source: {
+      // Direct MP4 (fast to demo). You can replace with a YouTube or Archive link.
+      url: "https://play.zephyrflick.top/video/0a87257e5308197df43230edf4ad1dae",
+      provider: "direct",
+    },
+    },
+  {
     id: "The Conjuring 2",
     type: "movie",
     title: "The Conjuring 2",
