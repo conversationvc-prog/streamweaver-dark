@@ -112,7 +112,7 @@ export const MEDIA: MediaItem[] = [
     rating: 5.7,
     genres: ["Action"],
      description:
-      "It's the ultimate showdown. The toughest fighters from "Baki Hanma" and "Kengan Ashura" clash in this unprecedented, hard-hitting martial arts crossover.",
+      "a 2024 crossover anime series where the fighters from the Baki series, known for its extreme and over-the-top feats, collide with the fighters from Kengan Ashura, which features a more strategic, corporate-backed fighting style",
     poster:
       "https://m.media-amazon.com/images/M/MV5BOTNkMTU1OWQtNTE5Yi00OTViLTlhOTMtZmYxZWJiMTU2MTAwXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
     source: {
