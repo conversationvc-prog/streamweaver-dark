@@ -720,8 +720,7 @@ export const MEDIA: MediaItem[] = [
     ],
   },
 ];
-  },
-];
+
 export const ALL_GENRES = Array.from(
   MEDIA.reduce((acc, item) => {
     item.genres.forEach((g) => acc.add(g));
