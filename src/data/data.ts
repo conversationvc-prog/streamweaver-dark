@@ -362,7 +362,7 @@ export const MEDIA: MediaItem[] = [
               title: "Episode 3: Sabito and Makomo",
               source: {
                 // Demo source; replace with your preferred link
-                url: "https://st2.febspot.com/remote_control.php?time=1754816334&cv=9738be8e7b5bcd18cfe959577dddf89b&lr=0&cv2=719f7b91c6d09f2c48e7b7b53585519b&file=%2Fvideos%2F2522000%2F2522592%2F2522592_720p.mp4&cv3=6f466072b403ded75718b0fb3f2d192f&cv4=cce09ebb159c91351cf7d3cc8b9be75e",
+                url: "https://play.zephyrflick.top/video/e00406144c1e7e35240afed70f34166a",
                 provider: "direct",
               },
             },
@@ -372,7 +372,7 @@ export const MEDIA: MediaItem[] = [
               title: "Episode 4: Final Selection",
               source: {
                 // Demo source; replace with your preferred link
-                url: "https://st2.febspot.com/remote_control.php?time=1754816679&cv=02de8a1fc1910887a22aaba66c9f6b9a&lr=0&cv2=d566999336366c4f8c30a63f85c330c6&file=%2Fvideos%2F2522000%2F2522597%2F2522597_720p.mp4&cv3=6f466072b403ded75718b0fb3f2d192f&cv4=7576e649da84a4a1f6732ede24a696f1",
+                url: "https://play.zephyrflick.top/video/c850371fda6892fbfd1c5a5b457e5777",
                 provider: "direct",
               },
             },
@@ -382,7 +382,7 @@ export const MEDIA: MediaItem[] = [
               title: "Episode 5: My Own Steel",
               source: {
                 // Demo source; replace with your preferred link
-                url: "https://st2.febspot.com/remote_control.php?time=1754816805&cv=f18f00c3dae5d0819f177307953ea705&lr=0&cv2=6e9cbf0a018910e1e3107dee1596a50a&file=%2Fvideos%2F2522000%2F2522601%2F2522601_720p.mp4&cv3=6f466072b403ded75718b0fb3f2d192f&cv4=388e4afb8df57851f69fe93d87bb4343",
+                url: "https://play.zephyrflick.top/video/c1e39d912d21c91dce811d6da9929ae8",
                 provider: "direct",
               },
             },
@@ -392,7 +392,7 @@ export const MEDIA: MediaItem[] = [
               title: "Episode 6: Swordsman Accompanying a Demon",
               source: {
                 // Demo source; replace with your preferred link
-                url: "https://st2.febspot.com/remote_control.php?time=1754816901&cv=a0fd1d706c983449ea91fe5e5c58ae85&lr=0&cv2=c8bf0ce7009187e213b2ca20ea1f6a51&file=%2Fvideos%2F2522000%2F2522606%2F2522606_720p.mp4&cv3=6f466072b403ded75718b0fb3f2d192f&cv4=4793d659dbe3b9e9d6852784ab905127",
+                url: "https://play.zephyrflick.top/video/7810ccd41bf26faaa2c4e1f20db70a71",
                 provider: "direct",
               },
             },
@@ -402,7 +402,7 @@ export const MEDIA: MediaItem[] = [
               title: "Episode 7: Muzan Kibutsuji",
               source: {
                 // Demo source; replace with your preferred link
-                url: "https://st2.febspot.com/remote_control.php?time=1754816988&cv=62b6fc3e8feb99388d5c5f918771aad4&lr=0&cv2=98418ff98b859101c94e60e156a3faa8&file=%2Fvideos%2F2522000%2F2522618%2F2522618_720p.mp4&cv3=6f466072b403ded75718b0fb3f2d192f&cv4=49c1e5f2562a57487d912335dbbc7c88",
+                url: "https://play.zephyrflick.top/video/f91e24dfe80012e2a7984afa4480a6d6",
                 provider: "direct",
               },
             },
@@ -412,7 +412,7 @@ export const MEDIA: MediaItem[] = [
               title: "Episode 8: The Smell of Enchanting Blood",
               source: {
                 // Demo source; replace with your preferred link
-                url: "https://st2.febspot.com/remote_control.php?time=1754817147&cv=bb8b2d597b7dffea62101bcebb55ba87&lr=0&cv2=f136030df5fc750f1deaabe177dd754b&file=%2Fvideos%2F2522000%2F2522621%2F2522621_720p.mp4&cv3=6f466072b403ded75718b0fb3f2d192f&cv4=e0ac8b491685ddbd27f507a991500b28",
+                url: "https://play.zephyrflick.top/video/459a4ddcb586f24efd9395aa7662bc7c",
                 provider: "direct",
               },
             },
@@ -422,7 +422,7 @@ export const MEDIA: MediaItem[] = [
               title: "Episode 9: Temari Demon and Arrow Demon",
               source: {
                 // Demo source; replace with your preferred link
-                url: "https://st2.febspot.com/remote_control.php?time=1754817244&cv=89eed5a34cd33fb815ba5d0f80a94103&lr=0&cv2=246a4fb756125114f052122816a61a02&file=%2Fvideos%2F2522000%2F2522625%2F2522625_720p.mp4&cv3=6f466072b403ded75718b0fb3f2d192f&cv4=6cbac736682807f9ee34b15f4eea5a8c",
+                url: "https://play.zephyrflick.top/video/e702e51da2c0f5be4dd354bb3e295d37",
                 provider: "direct",
               },
             },
@@ -432,7 +432,7 @@ export const MEDIA: MediaItem[] = [
               title: "Episode 10: Together Forever",
               source: {
                 // Demo source; replace with your preferred link
-                url: "https://st2.febspot.com/remote_control.php?time=1754817349&cv=103725b0d93b370e2cca77c7e107effd&lr=0&cv2=f408079a68674266e39a47d961e6bec3&file=%2Fvideos%2F2522000%2F2522628%2F2522628_720p.mp4&cv3=6f466072b403ded75718b0fb3f2d192f&cv4=7fad9228a1da12c576a0b31b6b6275f6",
+                url: "https://play.zephyrflick.top/video/bb04af0f7ecaee4aae62035497da1387",
                 provider: "direct",
               },
             },
