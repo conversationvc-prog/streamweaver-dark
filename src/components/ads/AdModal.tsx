@@ -84,7 +84,7 @@ export const AdModal = ({ ad, isOpen, onClose, onComplete }: AdModalProps) => {
               alt={ad.title}
               className="w-full max-w-2xl h-auto rounded-lg shadow-2xl mx-auto"
               onError={(e) => {
-                e.currentTarget.src = 'https://images.unsplash.com/photo-1611162617474-5b21e879e113?w=800&h=400&fit=crop';
+                e.currentTarget.src = 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ9Xbx3glp9Jy20GGmwe4C_JwM296KXQHD88q-Y8Sbbi_4UlArWeXQFirq7L2OPHzjIVpg&usqp=CAU';
               }}
             />
             
