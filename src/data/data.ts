@@ -717,8 +717,10 @@ export const MEDIA: MediaItem[] = [
                 provider: "direct",
               },
             },
+          ],
+         {
+      },
     ],
-  },
 ];
 
 export const ALL_GENRES = Array.from(
