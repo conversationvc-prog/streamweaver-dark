@@ -712,7 +712,7 @@ export const MEDIA: MediaItem[] = [
       ]
     }
   ]
-},
+}
 
 
 export const ALL_GENRES = Array.from(
