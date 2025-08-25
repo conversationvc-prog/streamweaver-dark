@@ -621,103 +621,99 @@ export const MEDIA: MediaItem[] = [
       },
     ],
     {
-    id: "Devil-May-CRY - season 1",
-    type: "series",
-    title: "Devil May CRY",
-    year: 2025,
-    rating: 7.4,
-    genres: ["Anime", "Action", "Adventure"],
-    description:
-      "When a mysterious villain threatens to open the gates of Hell, a devilishly handsome demon hunter could be the world's best hope for salvation.",
-    poster:
-      "https://preview.redd.it/official-poster-for-the-devil-may-cry-series-v0-hwe7koa39jie1.jpeg?auto=webp&s=0122b235f233a0f606cb9e8890abe159f1224c1c",
-    seasons: [
-      {
-        id: "s1",
-        number: 1,
-        title: "Season 1",
-          episodes: [
-            {
-              id: "s1e1",
-              number: 1,
-              title: "Episode 1: Inferno",
-              source: {
-                // Demo source; replace with your preferred link
-                url: "https://play.zephyrflick.top/video/786fc80896b25422b5324cb6e57b701c",
-                provider: "direct",
-              },
-            },
-            {
-              id: "s1e2",
-              number: 2,
-              title: "Episode 2: Our Lady of Sorrows",
-              source: {
-                // Demo source; replace with your preferred link
-                url: "https://play.zephyrflick.top/video/1b8e84dcae97ad25234484e38615c570",
-                provider: "direct",
-              },
-            },
-            {
-              id: "s1e3",
-              number: 3,
-              title: "Episode 3: The Deep and Savage Way",
-              source: {
-                // Demo source; replace with your preferred link
-                url: "https://play.zephyrflick.top/video/36597855fca55b54f30f55d8820a2f8b",
-                provider: "direct",
-              },
-            },
-            {
-              id: "s1e4",
-              number: 4,
-              title: "Episode 4: All Hope Abandon",
-              source: {
-                // Demo source; replace with your preferred link
-                url: "https://play.zephyrflick.top/video/94d2a3c6dd19337f2511cdf8b4bf907e",
-                provider: "direct",
-              },
-            },
-            {
-              id: "s1e5",
-              number: 5,
-              title: "Episode 5: Descent",
-              source: {
-                // Demo source; replace with your preferred link
-                url: "https://play.zephyrflick.top/video/e022c20ad33354cbec77cc9709996dd1",
-                provider: "direct",
-              },
-            },
-            {
-              id: "s1e6",
-              number: 6,
-              title: "Episode 6: The First Circle",
-              source: {
-                // Demo source; replace with your preferred link
-                url: "https://play.zephyrflick.top/video/e7d81336a1915eff69e6eb7f32cf1e77",
-                provider: "direct",
-              },
-            },
-            {
-              id: "s1e7",
-              number: 7,
-              title: "Episode 7: At the Gates of Paradise",
-              source: {
-                // Demo source; replace with your preferred link
-                url: "https://play.zephyrflick.top/video/2eff4694dc9b370d5464f920c0fbb7ba",
-                provider: "direct",
-              },
-            },
-            {
-              id: "s1e8",
-              number: 8,
-              title: "Episode 8: A River of Blood and Fire",
-              source: {
-                // Demo source; replace with your preferred link
-                url: "https://play.zephyrflick.top/video/1764183ef03fc7324eb58c3842bd9a57",
-                provider: "direct",
-              },
-            },
-];
+  id: "Devil-May-CRY - season 1",
+  type: "series",
+  title: "Devil May CRY",
+  year: 2025,
+  rating: 7.4,
+  genres: ["Anime", "Action", "Adventure"],
+  description:
+    "When a mysterious villain threatens to open the gates of Hell, a devilishly handsome demon hunter could be the world's best hope for salvation.",
+  poster:
+    "https://preview.redd.it/official-poster-for-the-devil-may-cry-series-v0-hwe7koa39jie1.jpeg?auto=webp&s=0122b235f233a0f606cb9e8890abe159f1224c1c",
+  seasons: [
+    {
+      id: "s1",
+      number: 1,
+      title: "Season 1",
+      episodes: [
+        {
+          id: "s1e1",
+          number: 1,
+          title: "Episode 1: Inferno",
+          source: {
+            url: "https://play.zephyrflick.top/video/786fc80896b25422b5324cb6e57b701c",
+            provider: "direct",
+          },
+        },
+        {
+          id: "s1e2",
+          number: 2,
+          title: "Episode 2: Our Lady of Sorrows",
+          source: {
+            url: "https://play.zephyrflick.top/video/1b8e84dcae97ad25234484e38615c570",
+            provider: "direct",
+          },
+        },
+        {
+          id: "s1e3",
+          number: 3,
+          title: "Episode 3: The Deep and Savage Way",
+          source: {
+            url: "https://play.zephyrflick.top/video/36597855fca55b54f30f55d8820a2f8b",
+            provider: "direct",
+          },
+        },
+        {
+          id: "s1e4",
+          number: 4,
+          title: "Episode 4: All Hope Abandon",
+          source: {
+            url: "https://play.zephyrflick.top/video/94d2a3c6dd19337f2511cdf8b4bf907e",
+            provider: "direct",
+          },
+        },
+        {
+          id: "s1e5",
+          number: 5,
+          title: "Episode 5: Descent",
+          source: {
+            url: "https://play.zephyrflick.top/video/e022c20ad33354cbec77cc9709996dd1",
+            provider: "direct",
+          },
+        },
+        {
+          id: "s1e6",
+          number: 6,
+          title: "Episode 6: The First Circle",
+          source: {
+            url: "https://play.zephyrflick.top/video/e7d81336a1915eff69e6eb7f32cf1e77",
+            provider: "direct",
+          },
+        },
+        {
+          id: "s1e7",
+          number: 7,
+          title: "Episode 7: At the Gates of Paradise",
+          source: {
+            url: "https://play.zephyrflick.top/video/2eff4694dc9b370d5464f920c0fbb7ba",
+            provider: "direct",
+          },
+        },
+        {
+          id: "s1e8",
+          number: 8,
+          title: "Episode 8: A River of Blood and Fire",
+          source: {
+            url: "https://play.zephyrflick.top/video/1764183ef03fc7324eb58c3842bd9a57",
+            provider: "direct",
+          },
+        }
+      ]
+    }
+  ]
+},
+
 
 export const ALL_GENRES = Array.from(
   MEDIA.reduce((acc, item) => {
