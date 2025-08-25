@@ -122,6 +122,23 @@ export const MEDIA: MediaItem[] = [
     },
     },
   {
+    id: "Dragon Ball Super: Super Hero",
+    type: "movie",
+    title: "Dragon Ball Super: Super Hero",
+    year: 2022,
+    rating: 7.1,
+    genres: ["Action", "Fantasy", "Sci-Fi", "Shounen"],
+     description:
+      "an animated film where the revived Red Ribbon Army creates two new androids, Gamma 1 and Gamma 2, to challenge Goku and Vegeta, who are away training",
+    poster:
+      "https://m.media-amazon.com/images/M/MV5BNjczMTg2N2MtMTVmZi00MDYxLWIwY2MtNTBlMDRkYmFkZGJmXkEyXkFqcGc@._V1_.jpg",
+    source: {
+      // Direct MP4 (fast to demo). You can replace with a YouTube or Archive link.
+      url: "https://play.zephyrflick.top/video/c8ed21db4f678f3b13b9d5ee16489088",
+      provider: "direct",
+    },
+    },
+  {
     id: "The Conjuring 2",
     type: "movie",
     title: "The Conjuring 2",
