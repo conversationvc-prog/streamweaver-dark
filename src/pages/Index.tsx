@@ -2,11 +2,12 @@ import { Helmet } from "react-helmet-async";
 import { Link } from "react-router-dom";
 import { Tv, Play, Clapperboard, Crown, Grid, Settings, TvIcon, Star, Zap, ArrowRight } from "lucide-react";
 import { Button } from "@/components/ui/button";
-import { useState } from "react";
-import { AuthModal } from "@/components/auth/AuthModal";
 
-const Index = () => {
-  const [authModalOpen, setAuthModalOpen] = useState(false);
+interface IndexProps {
+  onAuthClick?: (tab?: "signin" | "signup") => void;
+}
+
+const Index = ({ onAuthClick }: IndexProps) => {
 
   return (
     <>
@@ -46,7 +47,7 @@ const Index = () => {
               <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-12">
                 <Button 
                   size="lg"
-                  onClick={() => setAuthModalOpen(true)}
+                  onClick={() => onAuthClick?.("signup")}
                   className="bg-gradient-to-r from-primary to-purple-500 hover:from-primary/90 hover:to-purple-500/90 text-white px-8 py-4 text-lg font-semibold rounded-2xl shadow-2xl hover:shadow-primary/25 transition-all duration-300 group"
                 >
                   Start Free Trial
@@ -160,11 +161,6 @@ const Index = () => {
             </Link>
           </div>
         </div>
-        
-        <AuthModal 
-          isOpen={authModalOpen} 
-          onClose={() => setAuthModalOpen(false)} 
-        />
       </main>
     </>
   );

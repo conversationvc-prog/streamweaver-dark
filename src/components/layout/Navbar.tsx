@@ -2,11 +2,13 @@ import { Link, NavLink } from "react-router-dom";
 import { useState } from "react";
 import { User, LogIn } from "lucide-react";
 import { Button } from "@/components/ui/button";
-import { AuthModal } from "@/components/auth/AuthModal";
 
-export const Navbar = () => {
-  const [authModalOpen, setAuthModalOpen] = useState(false);
-  const [isLoggedIn, setIsLoggedIn] = useState(false); // TODO: Replace with real auth state
+interface NavbarProps {
+  onAuthClick?: (tab?: "signin" | "signup") => void;
+}
+
+export const Navbar = ({ onAuthClick }: NavbarProps) => {
+  const [isLoggedIn] = useState(false); // TODO: Replace with real auth state
   
   return (
     <header className="sticky top-0 z-40 w-full border-b bg-background/70 backdrop-blur supports-[backdrop-filter]:bg-background/60">
@@ -39,7 +41,7 @@ export const Navbar = () => {
               <Button 
                 variant="default" 
                 size="sm" 
-                onClick={() => setAuthModalOpen(true)}
+                onClick={() => onAuthClick?.("signin")}
                 className="flex items-center gap-2 bg-gradient-to-r from-primary to-purple-500 hover:from-primary/90 hover:to-purple-500/90"
               >
                 <LogIn className="h-4 w-4" />
@@ -48,11 +50,6 @@ export const Navbar = () => {
             )}
           </div>
         </div>
-        
-        <AuthModal 
-          isOpen={authModalOpen} 
-          onClose={() => setAuthModalOpen(false)} 
-        />
       </div>
     </header>
   );

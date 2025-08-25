@@ -1,6 +1,6 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { Helmet } from "react-helmet-async";
-import { LIVE_CHANNELS, COUNTRIES, MOCK_NEWS, getChannelsByCountry, getNewsByCountry, LiveChannel, NewsItem } from "@/data/liveData";
+import { LIVE_CHANNELS, COUNTRIES, MOCK_NEWS, getChannelsByCountry, getNewsByCountry, getAdsForUser, LiveChannel, NewsItem } from "@/data/liveData";
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
@@ -8,10 +8,15 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/com
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { Play, Globe, Clock, Users } from "lucide-react";
 import { VideoPlayer } from "@/components/VideoPlayer";
+import { AdModal } from "@/components/ads/AdModal";
 
 const LiveTV = () => {
   const [selectedCountry, setSelectedCountry] = useState<string>("US");
   const [selectedChannel, setSelectedChannel] = useState<LiveChannel | null>(null);
+  const [userPlan] = useState<"free" | "premium">("free"); // Mock user plan - replace with actual user data
+  const [showAd, setShowAd] = useState(false);
+  const [currentAd, setCurrentAd] = useState<any>(null);
+  const [watchTime, setWatchTime] = useState(0);
 
   const filteredChannels = getChannelsByCountry(selectedCountry);
   const filteredNews = getNewsByCountry(selectedCountry);
@@ -25,6 +30,38 @@ const LiveTV = () => {
 
   const handleChannelSelect = (channel: LiveChannel) => {
     setSelectedChannel(channel);
+    setWatchTime(0); // Reset watch time
+  };
+
+  // Show ads for free users every 5 minutes
+  useEffect(() => {
+    if (!selectedChannel || userPlan === "premium") return;
+
+    const interval = setInterval(() => {
+      setWatchTime(prev => prev + 1);
+      
+      // Show ad every 5 minutes (300 seconds) for free users
+      if (watchTime > 0 && watchTime % 300 === 0) {
+        const ads = getAdsForUser(userPlan, selectedCountry, selectedChannel.category);
+        if (ads.length > 0) {
+          const randomAd = ads[Math.floor(Math.random() * ads.length)];
+          setCurrentAd(randomAd);
+          setShowAd(true);
+        }
+      }
+    }, 1000);
+
+    return () => clearInterval(interval);
+  }, [selectedChannel, userPlan, selectedCountry, watchTime]);
+
+  const handleAdComplete = () => {
+    setShowAd(false);
+    setCurrentAd(null);
+  };
+
+  const handleAdClose = () => {
+    setShowAd(false);
+    setCurrentAd(null);
   };
 
   return (
@@ -175,6 +212,16 @@ const LiveTV = () => {
             </div>
           </TabsContent>
         </Tabs>
+        
+        {/* Ad Modal for Free Users */}
+        {currentAd && (
+          <AdModal
+            ad={currentAd}
+            isOpen={showAd}
+            onClose={handleAdClose}
+            onComplete={handleAdComplete}
+          />
+        )}
       </main>
     </>
   );
