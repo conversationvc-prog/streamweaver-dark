@@ -718,7 +718,6 @@ export const MEDIA: MediaItem[] = [
               },
             },
           ],
-         {
       },
     ],
 ];
