@@ -105,19 +105,19 @@ export const MEDIA: MediaItem[] = [
     },
     },
   {
-    id: "The Conjuring 2",
+    id: "The Nun II 2023",
     type: "movie",
-    title: "The Conjuring 2",
-    year: 2016,
-    rating: 7.3,
+    title: "The Nun II 2023",
+    year: 2023,
+    rating: 5.6,
     genres: ["horror", "mistery", "Thriller"],
     description:
-      "Ed and Lorraine Warren travel to North London to help a single mother raising four children alone in a house plagued by a supernatural spirit.",
+      "a 2023 supernatural horror film, the sequel to The Nun (2018) and the eighth installment in The Conjuring Universe",
     poster:
-      "https://pacdn.aoneroom.com/image/2025/06/13/5f22294605a94f305ec1d5c83ef90d86.jpg?x-oss-process=image/resize%2Cw_250",
+      "https://m.media-amazon.com/images/M/MV5BNmJkYWIyYWYtNWVhZi00ZTkyLWExMTktZWUzNGE1MjNlNjQ0XkEyXkFqcGc@._V1_QL75_UY281_CR18,0,190,281_.jpg",
     source: {
       // Direct MP4 (fast to demo). You can replace with a YouTube or Archive link.
-      url: "https://fmoviesunblocked.net/spa/videoPlayPage/movies/the-conjuring-2-g6X954cAMf9?id=7767358379546525944&type=/movie/detail",
+      url: "https://critic.vidzstore.com/video_emb.php?dmdl=007&id=Mjk3MzY5MTAyNzQ0NjE0OQ==",
       provider: "direct",
     },
     },
