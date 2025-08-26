@@ -105,40 +105,6 @@ export const MEDIA: MediaItem[] = [
     },
     },
   {
-    id: "Baki Hanma VS Kengan Ashura",
-    type: "movie",
-    title: "Baki Hanma VS Kengan Ashur",
-    year: 2024,
-    rating: 5.7,
-    genres: ["Action"],
-     description:
-      "a 2024 crossover anime series where the fighters from the Baki series, known for its extreme and over-the-top feats, collide with the fighters from Kengan Ashura, which features a more strategic, corporate-backed fighting style",
-    poster:
-      "https://m.media-amazon.com/images/M/MV5BOTNkMTU1OWQtNTE5Yi00OTViLTlhOTMtZmYxZWJiMTU2MTAwXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
-    source: {
-      // Direct MP4 (fast to demo). You can replace with a YouTube or Archive link.
-      url: "https://play.zephyrflick.top/video/0a87257e5308197df43230edf4ad1dae",
-      provider: "direct",
-    },
-    },
-  {
-    id: "Dragon Ball Super: Super Hero",
-    type: "movie",
-    title: "Dragon Ball Super: Super Hero",
-    year: 2022,
-    rating: 7.1,
-    genres: ["Action", "Fantasy", "Sci-Fi", "Shounen"],
-     description:
-      "an animated film where the revived Red Ribbon Army creates two new androids, Gamma 1 and Gamma 2, to challenge Goku and Vegeta, who are away training",
-    poster:
-      "https://m.media-amazon.com/images/M/MV5BNjczMTg2N2MtMTVmZi00MDYxLWIwY2MtNTBlMDRkYmFkZGJmXkEyXkFqcGc@._V1_.jpg",
-    source: {
-      // Direct MP4 (fast to demo). You can replace with a YouTube or Archive link.
-      url: "https://play.zephyrflick.top/video/c8ed21db4f678f3b13b9d5ee16489088",
-      provider: "direct",
-    },
-    },
-  {
     id: "The Conjuring 2",
     type: "movie",
     title: "The Conjuring 2",
@@ -396,7 +362,7 @@ export const MEDIA: MediaItem[] = [
               title: "Episode 3: Sabito and Makomo",
               source: {
                 // Demo source; replace with your preferred link
-                url: "https://play.zephyrflick.top/video/e00406144c1e7e35240afed70f34166a",
+                url: "https://st2.febspot.com/remote_control.php?time=1754816334&cv=9738be8e7b5bcd18cfe959577dddf89b&lr=0&cv2=719f7b91c6d09f2c48e7b7b53585519b&file=%2Fvideos%2F2522000%2F2522592%2F2522592_720p.mp4&cv3=6f466072b403ded75718b0fb3f2d192f&cv4=cce09ebb159c91351cf7d3cc8b9be75e",
                 provider: "direct",
               },
             },
@@ -406,7 +372,7 @@ export const MEDIA: MediaItem[] = [
               title: "Episode 4: Final Selection",
               source: {
                 // Demo source; replace with your preferred link
-                url: "https://play.zephyrflick.top/video/c850371fda6892fbfd1c5a5b457e5777",
+                url: "https://st2.febspot.com/remote_control.php?time=1754816679&cv=02de8a1fc1910887a22aaba66c9f6b9a&lr=0&cv2=d566999336366c4f8c30a63f85c330c6&file=%2Fvideos%2F2522000%2F2522597%2F2522597_720p.mp4&cv3=6f466072b403ded75718b0fb3f2d192f&cv4=7576e649da84a4a1f6732ede24a696f1",
                 provider: "direct",
               },
             },
@@ -416,7 +382,7 @@ export const MEDIA: MediaItem[] = [
               title: "Episode 5: My Own Steel",
               source: {
                 // Demo source; replace with your preferred link
-                url: "https://play.zephyrflick.top/video/c1e39d912d21c91dce811d6da9929ae8",
+                url: "https://st2.febspot.com/remote_control.php?time=1754816805&cv=f18f00c3dae5d0819f177307953ea705&lr=0&cv2=6e9cbf0a018910e1e3107dee1596a50a&file=%2Fvideos%2F2522000%2F2522601%2F2522601_720p.mp4&cv3=6f466072b403ded75718b0fb3f2d192f&cv4=388e4afb8df57851f69fe93d87bb4343",
                 provider: "direct",
               },
             },
@@ -426,7 +392,7 @@ export const MEDIA: MediaItem[] = [
               title: "Episode 6: Swordsman Accompanying a Demon",
               source: {
                 // Demo source; replace with your preferred link
-                url: "https://play.zephyrflick.top/video/7810ccd41bf26faaa2c4e1f20db70a71",
+                url: "https://st2.febspot.com/remote_control.php?time=1754816901&cv=a0fd1d706c983449ea91fe5e5c58ae85&lr=0&cv2=c8bf0ce7009187e213b2ca20ea1f6a51&file=%2Fvideos%2F2522000%2F2522606%2F2522606_720p.mp4&cv3=6f466072b403ded75718b0fb3f2d192f&cv4=4793d659dbe3b9e9d6852784ab905127",
                 provider: "direct",
               },
             },
@@ -436,7 +402,7 @@ export const MEDIA: MediaItem[] = [
               title: "Episode 7: Muzan Kibutsuji",
               source: {
                 // Demo source; replace with your preferred link
-                url: "https://play.zephyrflick.top/video/f91e24dfe80012e2a7984afa4480a6d6",
+                url: "https://st2.febspot.com/remote_control.php?time=1754816988&cv=62b6fc3e8feb99388d5c5f918771aad4&lr=0&cv2=98418ff98b859101c94e60e156a3faa8&file=%2Fvideos%2F2522000%2F2522618%2F2522618_720p.mp4&cv3=6f466072b403ded75718b0fb3f2d192f&cv4=49c1e5f2562a57487d912335dbbc7c88",
                 provider: "direct",
               },
             },
@@ -446,7 +412,7 @@ export const MEDIA: MediaItem[] = [
               title: "Episode 8: The Smell of Enchanting Blood",
               source: {
                 // Demo source; replace with your preferred link
-                url: "https://play.zephyrflick.top/video/459a4ddcb586f24efd9395aa7662bc7c",
+                url: "https://st2.febspot.com/remote_control.php?time=1754817147&cv=bb8b2d597b7dffea62101bcebb55ba87&lr=0&cv2=f136030df5fc750f1deaabe177dd754b&file=%2Fvideos%2F2522000%2F2522621%2F2522621_720p.mp4&cv3=6f466072b403ded75718b0fb3f2d192f&cv4=e0ac8b491685ddbd27f507a991500b28",
                 provider: "direct",
               },
             },
@@ -456,7 +422,7 @@ export const MEDIA: MediaItem[] = [
               title: "Episode 9: Temari Demon and Arrow Demon",
               source: {
                 // Demo source; replace with your preferred link
-                url: "https://play.zephyrflick.top/video/e702e51da2c0f5be4dd354bb3e295d37",
+                url: "https://st2.febspot.com/remote_control.php?time=1754817244&cv=89eed5a34cd33fb815ba5d0f80a94103&lr=0&cv2=246a4fb756125114f052122816a61a02&file=%2Fvideos%2F2522000%2F2522625%2F2522625_720p.mp4&cv3=6f466072b403ded75718b0fb3f2d192f&cv4=6cbac736682807f9ee34b15f4eea5a8c",
                 provider: "direct",
               },
             },
@@ -466,7 +432,7 @@ export const MEDIA: MediaItem[] = [
               title: "Episode 10: Together Forever",
               source: {
                 // Demo source; replace with your preferred link
-                url: "https://play.zephyrflick.top/video/bb04af0f7ecaee4aae62035497da1387",
+                url: "https://st2.febspot.com/remote_control.php?time=1754817349&cv=103725b0d93b370e2cca77c7e107effd&lr=0&cv2=f408079a68674266e39a47d961e6bec3&file=%2Fvideos%2F2522000%2F2522628%2F2522628_720p.mp4&cv3=6f466072b403ded75718b0fb3f2d192f&cv4=7fad9228a1da12c576a0b31b6b6275f6",
                 provider: "direct",
               },
             },
@@ -617,103 +583,10 @@ export const MEDIA: MediaItem[] = [
               },
             },
           ],
-         {
       },
     ],
-    {
-  id: "Devil-May-CRY - season 1",
-  type: "series",
-  title: "Devil May CRY",
-  year: 2025,
-  rating: 7.4,
-  genres: ["Anime", "Action", "Adventure"],
-  description:
-    "When a mysterious villain threatens to open the gates of Hell, a devilishly handsome demon hunter could be the world's best hope for salvation.",
-  poster:
-    "https://preview.redd.it/official-poster-for-the-devil-may-cry-series-v0-hwe7koa39jie1.jpeg?auto=webp&s=0122b235f233a0f606cb9e8890abe159f1224c1c",
-  seasons: [
-    {
-      id: "s1",
-      number: 1,
-      title: "Season 1",
-      episodes: [
-        {
-          id: "s1e1",
-          number: 1,
-          title: "Episode 1: Inferno",
-          source: {
-            url: "https://play.zephyrflick.top/video/786fc80896b25422b5324cb6e57b701c",
-            provider: "direct",
-          },
-        },
-        {
-          id: "s1e2",
-          number: 2,
-          title: "Episode 2: Our Lady of Sorrows",
-          source: {
-            url: "https://play.zephyrflick.top/video/1b8e84dcae97ad25234484e38615c570",
-            provider: "direct",
-          },
-        },
-        {
-          id: "s1e3",
-          number: 3,
-          title: "Episode 3: The Deep and Savage Way",
-          source: {
-            url: "https://play.zephyrflick.top/video/36597855fca55b54f30f55d8820a2f8b",
-            provider: "direct",
-          },
-        },
-        {
-          id: "s1e4",
-          number: 4,
-          title: "Episode 4: All Hope Abandon",
-          source: {
-            url: "https://play.zephyrflick.top/video/94d2a3c6dd19337f2511cdf8b4bf907e",
-            provider: "direct",
-          },
-        },
-        {
-          id: "s1e5",
-          number: 5,
-          title: "Episode 5: Descent",
-          source: {
-            url: "https://play.zephyrflick.top/video/e022c20ad33354cbec77cc9709996dd1",
-            provider: "direct",
-          },
-        },
-        {
-          id: "s1e6",
-          number: 6,
-          title: "Episode 6: The First Circle",
-          source: {
-            url: "https://play.zephyrflick.top/video/e7d81336a1915eff69e6eb7f32cf1e77",
-            provider: "direct",
-          },
-        },
-        {
-          id: "s1e7",
-          number: 7,
-          title: "Episode 7: At the Gates of Paradise",
-          source: {
-            url: "https://play.zephyrflick.top/video/2eff4694dc9b370d5464f920c0fbb7ba",
-            provider: "direct",
-          },
-        },
-        {
-          id: "s1e8",
-          number: 8,
-          title: "Episode 8: A River of Blood and Fire",
-          source: {
-            url: "https://play.zephyrflick.top/video/1764183ef03fc7324eb58c3842bd9a57",
-            provider: "direct",
-          },
-        }
-      ]
-    }
-  ]
-},
-
+  },
+];
 
 export const ALL_GENRES = Array.from(
   MEDIA.reduce((acc, item) => {
