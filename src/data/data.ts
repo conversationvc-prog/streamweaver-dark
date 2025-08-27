@@ -88,6 +88,23 @@ export const MEDIA: MediaItem[] = [
     },
     },
   {
+    id: "War 2 HINDI",
+    type: "movie",
+    title: "War 2 HINDI",
+    year: 2025,
+    rating: 6.0,
+    genres: ["Advanture", "Action", "Thriller"],
+    description:
+      "a devastating global conflict between the Allied and Axis powers that resulted in 70 to 85 million deaths, and the deadliest war in human history.",
+    poster:
+      "https://m.media-amazon.com/images/M/MV5BY2U0MGFkNzctOGI5OC00MzhhLWExYTctZjE5YjY3MzcwYjMzXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+    source: {
+      // Direct MP4 (fast to demo). You can replace with a YouTube or Archive link.
+      url: "https://pkembed.online/embed-6ha1k8ef9pcq.html",
+      provider: "direct",
+    },
+    },
+  {
     id: "Transformers: Revenge of the Fallen",
     type: "movie",
     title: "Transformers: Revenge of the Fallen",
