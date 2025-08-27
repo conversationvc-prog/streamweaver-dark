@@ -151,7 +151,58 @@ export const MEDIA: MediaItem[] = [
       "https://pacdn.aoneroom.com/image/2024/12/12/076d284a6f9e0d758e9c5e86e8e31348.jpg?x-oss-process=image/resize%2Cw_250",
     source: {
       // Direct MP4 (fast to demo). You can replace with a YouTube or Archive link.
-      url: "https://fmoviesunblocked.net/spa/videoPlayPage/movies/transformers-revenge-of-the-fallen-hindi-qrZmavjRv0a?id=8399949955288499688&type=/movie/detail",
+      url: "https://embedpk.net/embed-4ugxl6g596zy.html",
+      provider: "direct",
+    },
+    },
+  {
+    id: "The Boss Baby [2017]",
+    type: "movie",
+    title: "The Boss Baby [2017]",
+    year: 2017,
+    rating: 6.3,
+    genres: ["Family", "Comedy", "Kids"],
+    description:
+      "a DreamWorks animated comedy about a suit-wearing, briefcase-carrying baby with a secret mission to stop a corporate plot that threatens the world's love for babies in favor of puppies",
+    poster:
+      "https://play-lh.googleusercontent.com/eMclFL5NRKlg_I4SJg5se716SV5hSIDsPgd32VgqTP8dkBrz6vyGPRUuPzDH3ODam9fiB7avYX2B8NSRWg=w240-h480-rw",
+    source: {
+      // Direct MP4 (fast to demo). You can replace with a YouTube or Archive link.
+      url: "https://embedpk.net/embed-7ge89f1kfp5r.html",
+      provider: "direct",
+    },
+    },
+  {
+    id: "The Boss Baby: Family Business (2021)",
+    type: "movie",
+    title: "The Boss Baby: Family Business (2021)",
+    year: 2021,
+    rating: 5.9,
+    genres: ["Family", "Comedy", "Kids"],
+    description:
+      "follows the now-adult Templeton brothers, Tim and Ted, who have drifted apart. When a new, cutting-edge boss baby arrives, she brings them back together, revealing a new plan for a family business that requires their combined efforts to save the family from a crisis.",
+    poster:
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQRvaVRbKL_d4VMUEUB1Tvq2_VGtBeDHKEeEA&s",
+    source: {
+      // Direct MP4 (fast to demo). You can replace with a YouTube or Archive link.
+      url: "https://embedpk.net/embed-btwrnh1m5erb.html",
+      provider: "direct",
+    },
+    },
+    {
+    id: "Dragon Ball Super Super Hero (2022)",
+    type: "movie",
+    title: "Dragon Ball Super Super Hero (2022)",
+    year: 2022,
+    rating: 7.1,
+    genres: ["Action", "Advanture", "Animation"],
+    description:
+      "a 2022 animated film where the resurgent Red Ribbon Army, an old villainous organization from Goku's past, unleashes two powerful new androids, Gamma 1 and Gamma 2, who initially present themselves as superheroes.",
+    poster:
+      "https://m.media-amazon.com/images/M/MV5BNjczMTg2N2MtMTVmZi00MDYxLWIwY2MtNTBlMDRkYmFkZGJmXkEyXkFqcGc@._V1_.jpg",
+    source: {
+      // Direct MP4 (fast to demo). You can replace with a YouTube or Archive link.
+      url: "https://d-s.io/e/qeyf1ofqk2ak",
       provider: "direct",
     },
     },
