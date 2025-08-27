@@ -88,6 +88,40 @@ export const MEDIA: MediaItem[] = [
     },
     },
   {
+    id: "Coolie",
+    type: "movie",
+    title: "Coolie",
+    year: 2025,
+    rating: 6.4,
+    genres: ["Advanture", "Action", "Thriller"],
+    description:
+      "This classic Bollywood film starring Amitabh Bachchan is an action-comedy-drama directed by Manmohan Desai. ",
+    poster:
+      "https://lh3.googleusercontent.com/proxy/DC2SqvMjxZYBhcs7zJivoUInIJZ5wazmmFrKYbFLzoBjs6Uaw2yks5i_kuQ_bqJiEQRqAGk6oR8LF1agZlRgpo4m0iLU9qWWSbGVBaky",
+    source: {
+      // Direct MP4 (fast to demo). You can replace with a YouTube or Archive link.
+      url: "https://pkembed.online/embed-tdijdp3g872h.html",
+      provider: "direct",
+    },
+    },
+   {
+    id: "Deva",
+    type: "movie",
+    title: "Deva",
+    year: 2025,
+    rating: 6.7,
+    genres: ["Action", "Thriller"],
+    description:
+      "a 2025 Indian Hindi-language action thriller about a rebellious police officer, Dev Ambre (Shahid Kapoor), who loses his memory after an accident and must retrace his steps to identify his best friend's killer and uncover departmental corruption",
+    poster:
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSKbBLscGB5_mYUBJIgB7RTTHRDlOInNNkiMA&s",
+    source: {
+      // Direct MP4 (fast to demo). You can replace with a YouTube or Archive link.
+      url: "https://pkembed.online/embed-8wqmn71um49d.html",
+      provider: "direct",
+    },
+    },
+  {
     id: "War 2 HINDI",
     type: "movie",
     title: "War 2 HINDI",
@@ -151,44 +185,27 @@ export const MEDIA: MediaItem[] = [
       "https://lumiere-a.akamaihd.net/v1/images/p_movies_thefantasticfourfirststeps_hero1shot_poster_v1_4b798b70.jpeg?region=0%2C0%2C540%2C810",
     source: {
       // Direct MP4 (fast to demo). You can replace with a YouTube or Archive link.
-      url: "https://fmoviesunblocked.net/spa/videoPlayPage/movies/the-fantastic-four-first-steps-hindi-cam-yhUYDI7yCo2?id=2011905906258129648&type=/movie/detail",
+      url: "https://pkembed.online/embed-0qf5605lc7tv.html",
       provider: "direct",
     },
    },
-  {
-    id: "Good Boy season 1 [Hindi]",
+   {
+    id: "Scooby Doo! Meets Courage the Cowardly Dog",
     type: "movie",
-    title: "Good Boy season 1 [Hindi]",
-    year: 2015,
-    rating: 7.6,
-    genres: ["action", "comdey", "romance"],
+    title: "Scooby Doo! Meets Courage the Cowardly Dog",
+    year: 2021,
+    rating: 6.3,
+    genres: ["kids", "animation", "comedy"],
     description:
-      "Olympic medalists join the police force through a special recruitment program, trading medals for badges as they tackle violent crimes and injustices with their athletic skills.",
+      "a crossover film where Scooby-Doo and the Mystery Inc. gang travel to Nowhere, Kansas, and encounter Courage and his owners, Eustace and Muriel Bagge",
     poster:
-      "https://m.media-amazon.com/images/M/MV5BNjIyMTZkYTItMDMzYy00OTgwLWE1Y2MtNDdlZGZmOTZkMGMzXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ7VQvPv-LS5_Y6fplIjx95SR5w0TfexrcDIg&s",
     source: {
       // Direct MP4 (fast to demo). You can replace with a YouTube or Archive link.
-      url: "https://fmoviesunblocked.net/spa/videoPlayPage/movies/good-boy-hindi-QiGhpCdpVU2?id=2449209778300666432&type=/movie/detail",
+      url: "https://pkembed.online/embed-pvnarbfoefie.html",
       provider: "direct",
     },
-    },
-    {
-    id: "Classroom of the Elite season 1 to 3 [Hindi] ",
-    type: "movie",
-    title: "Classroom of the Elite season 1 to 3 [Hindi]",
-    year: 2025,
-    rating: 7.7,
-    genres: ["anime", "drama", "Thriller"],
-    description:
-      "When Kiyotaka enters government-sponsored elite high school, he finds out just how merit-based this education system is.",
-    poster:
-      "https://m.media-amazon.com/images/M/MV5BMDg3MGVhNWUtYTQ2NS00ZDdiLTg5MTMtZmM5MjUzN2IxN2I4XkEyXkFqcGc@._V1_.jpg",
-    source: {
-      // Direct MP4 (fast to demo). You can replace with a YouTube or Archive link.
-      url: "https://fmoviesunblocked.net/spa/videoPlayPage/movies/classroom-of-the-elite-hindi-Ms2Kvq9mEpa?id=8740232437575336320&type=/movie/detail",
-      provider: "direct",
-    },
-    },
+   },
   {
     id: "The Conjuring",
     type: "movie",
@@ -202,7 +219,7 @@ export const MEDIA: MediaItem[] = [
       "https://images.moviesanywhere.com/64428a3af2258a8186ca97896f1fb060/de21bfe7-e298-4210-bdef-bfac8b2c53d0.jpg",
     source: {
       // Direct MP4 (fast to demo). You can replace with a YouTube or Archive link.
-      url: "https://st8.febspot.com/remote_control.php?file=B64YTo0OntzOjQ6InRpbWUiO2k6MTc1NTg0NjQ0MjtzOjU6ImxpbWl0IjtpOjA7czo0OiJmaWxlIjtzOjM3OiIvdmlkZW9zLzc2MjAwMC83NjIwMDgvNzYyMDA4XzcyMHAubXA0IjtzOjI6ImN2IjtzOjMyOiIzMjI3ZTJjNWYzZDU5NmM3YzgzMTUxY2IxMjk4YWVlOSI7fQ%3D%3D",
+      url: "https://embedpk.net/embed-vbq5k0mbd1l7.html",
       provider: "direct",
     },
     },
@@ -219,7 +236,7 @@ export const MEDIA: MediaItem[] = [
       "https://pacdn.aoneroom.com/image/2022/09/02/53c4b56b3f1d8024bb953dc516767c13.jpg?x-oss-process=image/resize%2Cw_250",
     source: {
       // Direct MP4 (fast to demo). You can replace with a YouTube or Archive link.
-      url: "https://fmoviesunblocked.net/spa/videoPlayPage/movies/interstellar-hindi-atK4mXcca06?id=5038022591622040232&type=/movie/detail",
+      url: "https://embedpk.net/embed-kb6fh2kxevb9.html",
       provider: "direct",
     },
   },
@@ -236,7 +253,7 @@ export const MEDIA: MediaItem[] = [
       "https://upload.wikimedia.org/wikipedia/en/8/80/How_To_Train_Your_Dragon_2025_Poster.jpg",
     source: {
       // Direct MP4 (fast to demo). You can replace with a YouTube or Archive link.
-      url: "https://fmoviesunblocked.net/spa/videoPlayPage/movies/how-to-train-your-dragon-hindi-cuSauV4ME09?id=7562597214405952408&type=/movie/detail",
+      url: "https://pkembed.online/embed-bdmofo2rmuxc.html",
       provider: "direct",
     },
   },
@@ -252,39 +269,7 @@ export const MEDIA: MediaItem[] = [
     poster:
       "https://m.media-amazon.com/images/M/MV5BNzZhMTc5MWUtOTE2MS00MjUwLTljYWEtYTk1ZmVjNzhmMzYzXkEyXkFqcGc@._V1_.jpg",
     source: {
-      url: "https://fmoviesunblocked.net/spa/videoPlayPage/movies/the-monkey-hindi-ahsncAPM8O?id=678773015634657760&type=/movie/detail",
-      provider: "direct",
-    },
-  },
-  {
-    id: "Wednesday Season 1&2",
-    type: "movie",
-    title: "Wednesday Season 1&2 All Episord [Hindi]",
-    year: 2025,
-    rating: 8.0,
-    genres: ["crime", "comedy", "fantacy"],
-    description:
-      "Follows Wednesday Addams' years as a student, when she attempts to master her emerging psychic ability, thwart a killing spree, and solve the mystery that embroiled her parents.",
-    poster:
-      "https://dnm.nflximg.net/api/v6/2DuQlx0fM4wd1nzqm5BFBi6ILa8/AAAAQXqFr1wfWcmfsH523LOieOvpV7kbh99e9aIqSJgLImlhEKA-mRJCLdX24fgi5VsvO-jrGenC_xzAZPntHpd3qRnX1Mw-7173NfP7HPIyMHnnd2bxbBo5FwNc_FlYdGk-DwvEuU42OVHow3H2pOtSKuSxhOg.jpg?r=c99",
-    source: {
-      url: "https://fmoviesunblocked.net/spa/videoPlayPage/movies/wednesday-hindi-kIx7IplYsG1?id=1414183037004383720&type=/movie/detail",
-      provider: "direct",
-    },
-  },
-  {
-    id: "Money Heist season 1 to 5 [Hindi]",
-    type: "movie",
-    title: "Money Heist season 1 to 5 [Hindi]",
-    year: 2017,
-    rating: 8.2,
-    genres: ["crime", "action", "drama;"],
-    description:
-      "An unusual group of robbers attempt to carry out the most perfect robbery in Spanish history - stealing 2.4 billion euros from the Royal Mint of Spain.",
-    poster:
-      "https://m.media-amazon.com/images/M/MV5BZjkxZWJiNTUtYjQwYS00MTBlLTgwODQtM2FkNWMyMjMwOGZiXkEyXkFqcGc@._V1_.jpg",
-    source: {
-      url: "https://fmoviesunblocked.net/spa/videoPlayPage/movies/money-heist-hindi-0A6xcmujYv8?id=7147213651240699592&type=/movie/detail",
+      url: "https://pkembed.online/embed-l6mgh1os4jmb.html",
       provider: "direct",
     },
   },
@@ -300,7 +285,7 @@ export const MEDIA: MediaItem[] = [
     poster:
       "https://m.media-amazon.com/images/M/MV5BZTlhYTk1ZTEtOWY3NC00NWQ5LTlkOTctNjQ3ZDYyZGE5ZWNlXkEyXkFqcGc@._V1_.jpg",
     source: {
-      url: "https://fmoviesunblocked.net/spa/videoPlayPage/movies/bring-her-back-hindi-oWDzQRO5Jz8?id=7198038758233981256&type=/movie/detail",
+      url: "https://pkembed.online/embed-rb3s4yk3tg2o.html",
       provider: "direct",
     },
   },
@@ -316,23 +301,7 @@ export const MEDIA: MediaItem[] = [
     poster:
       "https://image.tmdb.org/t/p/original/mIBCtPvKZQlxubxKMeViO2UrP3q.jpg",
     source: {
-      url: "https://fmoviesunblocked.net/spa/videoPlayPage/movies/evil-dead-rise-hindi-eDge5bJBef2?id=1884844657314596608&type=/movie/detail",
-      provider: "direct",
-    },
-  },
-   {
-    id: "Blue Lock season 1 to 2 [Hindi]",
-    type: "movie",
-    title: "Blue Lock season 1 to 2 [Hindi]",
-    year: 2022,
-    rating: 8.1,
-    genres: ["anime", "sport", "Thriller"],
-    description:
-      "High school soccer players from across Japan gather for a controversial project designed to create the best and most egoistic striker in the world.",
-    poster:
-      "https://m.media-amazon.com/images/M/MV5BNWFlNmJkN2YtNGRiZS00NjExLTlmNmEtYzdiMTdiZmMzYzAwXkEyXkFqcGc@._V1_QL75_UX190_CR0,2,190,281_.jpg",
-    source: {
-      url: "https://fmoviesunblocked.net/spa/videoPlayPage/movies/blue-lock-hindi-eRPvdh1a3s8?id=7094123659279091624&type=/movie/detail",
+      url: "https://embedpk.net/embed-gt06gkj1loub.html",
       provider: "direct",
     },
   },
