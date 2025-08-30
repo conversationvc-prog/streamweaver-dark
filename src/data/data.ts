@@ -155,6 +155,23 @@ export const MEDIA: MediaItem[] = [
       provider: "direct",
     },
     },
+   {
+    id: "KGF: CHAPTER(1)",
+    type: "movie",
+    title: "KGF: CHAPTER(1)",
+    year: 2018,
+    rating: 8.2,
+    genres: ["drama", "Action", "crime fictiaon"],
+    description:
+      "an Indian period action film centered on Rocky, a powerful mercenary who rises from poverty to become a formidable figure in the criminal underworld, ultimately undertaking a mission to assassinate Garuda, the oppressive ruler of the Kolar Gold Fields.",
+    poster:
+      "https://m.media-amazon.com/images/M/MV5BM2M0YmIxNzItOWI4My00MmQzLWE0NGYtZTM3NjllNjIwZjc5XkEyXkFqcGc@._V1_.jpg",
+    source: {
+      // Direct MP4 (fast to demo). You can replace with a YouTube or Archive link.
+      url: "https://embedpk.net/embed-oqkk8o9fz8me.html",
+      provider: "direct",
+    },
+    },
   {
     id: "The Boss Baby [2017]",
     type: "movie",
